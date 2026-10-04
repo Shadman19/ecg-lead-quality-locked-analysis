@@ -1,0 +1,101 @@
+nohup: ignoring input
+>> PTBXL n leads 25896 n pos 2083 records with any 310 static leads 1980 burst leads 138 electrode leads 2 records annotated static/burst/elec 283 34 2
+>> PTBXL pilot per-seed [0.7265 0.7513 0.7743] mean 0.7507 CI [0.73   0.7702] ensemble 0.796 ens CI [0.7741 0.8159] AUPRC ens 0.2699 sens@90spec ens 0.4321
+>> PTBXL pilot vs bsqi_bad comp AUROC 0.5391 comp CI [0.5109 0.5644] | seedmean delta 0.2116 [0.1777 0.2473] | ens delta 0.2569 [0.2218 0.2923] | comp AUPRC 0.0928 sens@90 0.1474
+>> PTBXL pilot vs ksqi_bad comp AUROC 0.5865 comp CI [0.5629 0.611 ] | seedmean delta 0.1642 [0.134  0.1943] | ens delta 0.2095 [0.179  0.2393] | comp AUPRC 0.1061 sens@90 0.1623
+>> PTBXL pilot vs ssqi_bad comp AUROC 0.5666 comp CI [0.5444 0.5881] | seedmean delta 0.1841 [0.1553 0.2119] | ens delta 0.2294 [0.1999 0.258 ] | comp AUPRC 0.096 sens@90 0.1359
+>> PTBXL pilot vs psqi_bad comp AUROC 0.5086 comp CI [0.4855 0.534 ] | seedmean delta 0.2421 [0.2108 0.2728] | ens delta 0.2874 [0.2548 0.3185] | comp AUPRC 0.0813 sens@90 0.1003
+>> PTBXL pilot vs bassqi_bad comp AUROC 0.5316 comp CI [0.5013 0.5611] | seedmean delta 0.2191 [0.1805 0.2556] | ens delta 0.2644 [0.2248 0.3011] | comp AUPRC 0.0906 sens@90 0.1306
+>> PTBXL pilot vs flat_bad comp AUROC 0.2021 comp CI [0.1823 0.2238] | seedmean delta 0.5486 [0.5079 0.5858] | ens delta 0.5939 [0.5518 0.6325] | comp AUPRC 0.0473 sens@90 0.0053
+>> PTBXL pilot vs tsqi_bad comp AUROC 0.5768 comp CI [0.5535 0.6013] | seedmean delta 0.1739 [0.1408 0.2064] | ens delta 0.2192 [0.1862 0.2523] | comp AUPRC 0.1121 sens@90 0.1771
+>> PTBXL pilot vs sup_gbm comp AUROC 0.8035 comp CI [0.7826 0.8219] | seedmean delta -0.0528 [-0.066  -0.0396] | ens delta -0.0076 [-0.0206  0.0053] | comp AUPRC 0.2431 sens@90 0.4191
+>> PTBXL pilot vs sup_logreg comp AUROC 0.7966 comp CI [0.7757 0.8151] | seedmean delta -0.046 [-0.0593 -0.033 ] | ens delta -0.0007 [-0.0131  0.0111] | comp AUPRC 0.24 sens@90 0.4109
+>> PTBXL pilot vs sqa_sup comp AUROC 0.6955 comp CI [0.6733 0.7175] | seedmean delta 0.0552 [0.0235 0.0811] | ens delta 0.1005 [0.0685 0.1267] | comp AUPRC 0.1897 sens@90 0.3044
+>> PTBXL pilot vs sqa_ae comp AUROC 0.6414 comp CI [0.6194 0.6646] | seedmean delta 0.1092 [0.0829 0.1351] | ens delta 0.1545 [0.1284 0.1801] | comp AUPRC 0.1211 sens@90 0.1853
+>> PTBXL pilot vs sqa_lpx comp AUROC 0.7014 comp CI [0.6762 0.7241] | seedmean delta 0.0493 [0.0287 0.0711] | ens delta 0.0945 [0.0721 0.1185] | comp AUPRC 0.1732 sens@90 0.288
+>> PTBXL pilot vs sqa_lp comp AUROC 0.7153 comp CI [0.693 0.737] | seedmean delta 0.0354 [0.0168 0.0545] | ens delta 0.0807 [0.0607 0.1008] | comp AUPRC 0.2117 sens@90 0.337
+>> PTBXL leadwise-nocf per-seed [0.7946 0.8122 0.7096] mean 0.7721 CI [0.7516 0.7931] ensemble 0.8091 ens CI [0.7871 0.831 ] AUPRC ens 0.2847 sens@90spec ens 0.4575
+>> PTBXL leadwise-nocf vs sup_gbm comp AUROC 0.8035 comp CI [0.7843 0.8227] | seedmean delta -0.0314 [-0.044  -0.0186] | ens delta 0.0056 [-0.0075  0.0188] | comp AUPRC 0.2431 sens@90 0.4191
+>> PTBXL subset static pilot seedmean 0.7591 ens 0.8053 sup_gbm 0.8127 ksqi 0.5922 tsqi 0.5746
+>> PTBXL subset burst pilot seedmean 0.6476 ens 0.6802 sup_gbm 0.6881 ksqi 0.5009 tsqi 0.6106
+>> PTBXL combo(pilot ens + tsqi) AUROC 0.7493
+>> CINC pilot per-seed [0.7699 0.8144 0.8681] mean 0.8174 CI [0.788  0.8441] ensemble 0.8642 ens CI [0.8333 0.8947] AUPRC ens 0.7609 sens@90spec ens 0.6267
+>> CINC pilot vs bsqi_bad comp AUROC 0.7889 comp CI [0.7592 0.8166] | seedmean delta 0.0285 [-0.0128  0.0679] | ens delta 0.0752 [0.0345 0.1169] | comp AUPRC 0.4512 sens@90 0.0
+>> CINC pilot vs ksqi_bad comp AUROC 0.7509 comp CI [0.7077 0.794 ] | seedmean delta 0.0665 [0.018  0.1182] | ens delta 0.1132 [0.0647 0.162 ] | comp AUPRC 0.6557 sens@90 0.52
+>> CINC pilot vs ssqi_bad comp AUROC 0.6767 comp CI [0.6316 0.7226] | seedmean delta 0.1407 [0.0861 0.1941] | ens delta 0.1875 [0.1346 0.2397] | comp AUPRC 0.5665 sens@90 0.3956
+>> CINC pilot vs psqi_bad comp AUROC 0.8104 comp CI [0.7733 0.8487] | seedmean delta 0.007 [-0.0414  0.0543] | ens delta 0.0538 [0.0048 0.1013] | comp AUPRC 0.7342 sens@90 0.6133
+>> CINC pilot vs bassqi_bad comp AUROC 0.8593 comp CI [0.8239 0.8924] | seedmean delta -0.0419 [-0.0837 -0.0025] | ens delta 0.0049 [-0.0422  0.0525] | comp AUPRC 0.765 sens@90 0.7022
+>> CINC pilot vs flat_bad comp AUROC 0.803 comp CI [0.7583 0.846 ] | seedmean delta 0.0144 [-0.0379  0.0645] | ens delta 0.0612 [0.0108 0.1119] | comp AUPRC 0.7802 sens@90 0.7289
+>> CINC pilot vs tsqi_bad comp AUROC 0.9151 comp CI [0.8965 0.9323] | seedmean delta -0.0977 [-0.1328 -0.0678] | ens delta -0.0509 [-0.0861 -0.0196] | comp AUPRC 0.6634 sens@90 0.0489
+>> CINC pilot vs sup_gbm_cv comp AUROC 0.9605 comp CI [0.9474 0.9717] | seedmean delta -0.1431 [-0.1731 -0.1169] | ens delta -0.0963 [-0.1266 -0.0678] | comp AUPRC 0.9039 sens@90 0.8889
+>> CINC pilot vs sqa_sup comp AUROC 0.821 comp CI [0.788  0.8522] | seedmean delta -0.0036 [-0.0354  0.0289] | ens delta 0.0431 [0.0084 0.0815] | comp AUPRC 0.6682 sens@90 0.5733
+>> CINC pilot vs sqa_ae comp AUROC 0.8817 comp CI [0.8427 0.9144] | seedmean delta -0.0642 [-0.1016 -0.0282] | ens delta -0.0175 [-0.0644  0.0291] | comp AUPRC 0.8252 sens@90 0.8133
+>> CINC pilot vs sqa_lpx comp AUROC 0.4053 comp CI [0.3616 0.4447] | seedmean delta 0.4122 [0.3686 0.4586] | ens delta 0.4589 [0.4132 0.5065] | comp AUPRC 0.2064 sens@90 0.0667
+>> CINC pilot vs sqa_lp comp AUROC 0.8223 comp CI [0.79   0.8519] | seedmean delta -0.0048 [-0.0328  0.0234] | ens delta 0.0419 [0.0089 0.0754] | comp AUPRC 0.6082 sens@90 0.6711
+>> CINC combo(pilot ens + tsqi) 0.9418 CI [0.9248 0.9576] combo minus tsqi 0.0267 [0.0115 0.0418]
+>> GATED cnn_diagonly_aug clean plain 0.9289 delta -0.0024 95CI -0.0037 -0.0012 97.5CI -0.0039 -0.001
+>> GATED cnn_diagonly_aug multireal plain 0.921 delta -0.0263 95CI -0.0292 -0.0235 97.5CI -0.0295 -0.0232
+>> GATED cnn_diagonly_aug nstdb_em_ma plain 0.9268 delta -0.0067 95CI -0.0081 -0.005 97.5CI -0.0084 -0.0049
+>> GATED cnn_diagonly_aug bw|k=0|s=0.0|bw=1.0 plain 0.9226 delta -0.002 95CI -0.0032 -0.0008 97.5CI -0.0034 -0.0006
+>> GATED cnn_diagonly_aug joint|k=2|s=0.25|bw=0.0 plain 0.922 delta -0.4231 95CI -0.4303 -0.4156 97.5CI -0.4314 -0.4144
+>> GATED cnn_diagonly_aug joint|k=4|s=0.25|bw=0.0 plain 0.9144 delta -0.4155 95CI -0.423 -0.4076 97.5CI -0.4238 -0.4065
+>> GATED cnn_diagonly_aug missing|k=8|s=0.0|bw=0.0 plain 0.8703 delta -0.0056 95CI -0.0071 -0.0039 97.5CI -0.0073 -0.0037
+>> GATED cnn_diagonly_aug noise|k=0|s=0.1|bw=0.0 plain 0.9286 delta -0.3859 95CI -0.3953 -0.3765 97.5CI -0.3966 -0.3755
+>> GATED cnn_diagonly_aug noise|k=0|s=0.25|bw=0.0 plain 0.9269 delta -0.4279 95CI -0.4351 -0.4203 97.5CI -0.4362 -0.4191
+>> GATED cnn_diagonly_aug noise|k=0|s=0.5|bw=0.0 plain 0.9179 delta -0.419 95CI -0.4266 -0.4116 97.5CI -0.4274 -0.41
+>> GATED resnet_aug clean plain 0.9294 delta -0.0026 95CI -0.0038 -0.0013 97.5CI -0.004 -0.0012
+>> GATED resnet_aug multireal plain 0.9221 delta -0.0274 95CI -0.0304 -0.0245 97.5CI -0.0306 -0.0241
+>> GATED resnet_aug nstdb_em_ma plain 0.927 delta -0.0068 95CI -0.0085 -0.0051 97.5CI -0.0087 -0.0048
+>> GATED resnet_aug bw|k=0|s=0.0|bw=1.0 plain 0.9179 delta -0.0021 95CI -0.0033 -0.0009 97.5CI -0.0035 -0.0007
+>> GATED resnet_aug joint|k=2|s=0.25|bw=0.0 plain 0.9212 delta -0.4205 95CI -0.4275 -0.4132 97.5CI -0.4281 -0.4124
+>> GATED resnet_aug joint|k=4|s=0.25|bw=0.0 plain 0.9138 delta -0.4131 95CI -0.4204 -0.4056 97.5CI -0.4213 -0.405
+>> GATED resnet_aug missing|k=8|s=0.0|bw=0.0 plain 0.8678 delta -0.0065 95CI -0.0082 -0.0049 97.5CI -0.0085 -0.0047
+>> GATED resnet_aug noise|k=0|s=0.1|bw=0.0 plain 0.9291 delta -0.3781 95CI -0.3873 -0.3691 97.5CI -0.3887 -0.3684
+>> GATED resnet_aug noise|k=0|s=0.25|bw=0.0 plain 0.9268 delta -0.4261 95CI -0.4333 -0.4191 97.5CI -0.434 -0.418
+>> GATED resnet_aug noise|k=0|s=0.5|bw=0.0 plain 0.9138 delta -0.4128 95CI -0.4203 -0.4052 97.5CI -0.421 -0.4043
+>> GATED inception_aug clean plain 0.9286 delta -0.0019 95CI -0.0031 -0.0006 97.5CI -0.0033 -0.0004
+>> GATED inception_aug multireal plain 0.9209 delta -0.0293 95CI -0.0326 -0.0263 97.5CI -0.0329 -0.0258
+>> GATED inception_aug nstdb_em_ma plain 0.9265 delta -0.0066 95CI -0.0081 -0.0049 97.5CI -0.0083 -0.0048
+>> GATED inception_aug bw|k=0|s=0.0|bw=1.0 plain 0.9191 delta -0.0016 95CI -0.0028 -0.0002 97.5CI -0.0029 -0.0001
+>> GATED inception_aug joint|k=2|s=0.25|bw=0.0 plain 0.9202 delta -0.4191 95CI -0.4259 -0.412 97.5CI -0.4265 -0.4109
+>> GATED inception_aug joint|k=4|s=0.25|bw=0.0 plain 0.9135 delta -0.4125 95CI -0.4194 -0.4056 97.5CI -0.4204 -0.4044
+>> GATED inception_aug missing|k=8|s=0.0|bw=0.0 plain 0.8632 delta -0.0054 95CI -0.0068 -0.0039 97.5CI -0.0071 -0.0037
+>> GATED inception_aug noise|k=0|s=0.1|bw=0.0 plain 0.9284 delta -0.3587 95CI -0.3679 -0.3493 97.5CI -0.3693 -0.3483
+>> GATED inception_aug noise|k=0|s=0.25|bw=0.0 plain 0.9257 delta -0.4247 95CI -0.4315 -0.418 97.5CI -0.4325 -0.4165
+>> GATED inception_aug noise|k=0|s=0.5|bw=0.0 plain 0.9129 delta -0.411 95CI -0.4181 -0.4037 97.5CI -0.419 -0.4024
+>> GATE clean frac_gated 0.0481 frac_corrupted 0.0 prec 0.0 rec 0.0
+>> GATE multireal frac_gated 0.4689 frac_corrupted 0.5297 prec 0.952 rec 0.842
+>> GATE nstdb_em_ma frac_gated 0.163 frac_corrupted 0.2778 prec 0.787 rec 0.462
+>> GATE bw|k=0|s=0.0|bw=1.0 frac_gated 0.043 frac_corrupted 0.0 prec 0.0 rec 0.0
+>> GATE joint|k=2|s=0.25|bw=0.0 frac_gated 0.9997 frac_corrupted 1.0 prec 1.0 rec 1.0
+>> GATE joint|k=4|s=0.25|bw=0.0 frac_gated 0.9998 frac_corrupted 1.0 prec 1.0 rec 1.0
+>> GATE missing|k=8|s=0.0|bw=0.0 frac_gated 0.6828 frac_corrupted 0.6667 prec 0.976 rec 1.0
+>> GATE noise|k=0|s=0.1|bw=0.0 frac_gated 0.967 frac_corrupted 1.0 prec 1.0 rec 0.967
+>> GATE noise|k=0|s=0.25|bw=0.0 frac_gated 0.9996 frac_corrupted 1.0 prec 1.0 rec 1.0
+>> GATE noise|k=0|s=0.5|bw=0.0 frac_gated 0.9995 frac_corrupted 1.0 prec 1.0 rec 1.0
+>> ecg_lock_results PRIMARY_endpoints_and_decision.csv
+                                            endpoint                            model                                                               per_seed     delta     ci_lo     ci_hi  ci_level  pass  mean_intact_score  frac_clean_leads_flagged_at_tau_mask decision
+   A_perlead_noise_auroc_learned_minus_combined_rule    cnn_full_leadwise_cleanfrac20           [0.3911640630196097, 0.3785389538957571, 0.3853738910093981]  0.385026  0.376634  0.393635     0.950  True                NaN                                   NaN      NaN
+B1_corrupted_macro_auroc_proposed_minus_diagonly_aug    cnn_full_leadwise_cleanfrac20 [-0.004848732236748532, -0.0017856624668723953, -0.004327563330175921] -0.003654 -0.006732 -0.000771     0.975 False                NaN                                   NaN      NaN
+ B2_predicted_mask_repair_macro_auroc_post_minus_pre    cnn_full_leadwise_cleanfrac20 [-0.003547481735836633, -0.0016896025355466193, -0.002572326413223025] -0.002603 -0.005075 -0.000369     0.975 False                NaN                                   NaN      NaN
+                     SANITY_clean_input_intact_score cnn_full_leadwise_cleanfrac20_s0                                                                    NaN       NaN       NaN       NaN       NaN   NaN           0.906551                              0.043675      NaN
+                     SANITY_clean_input_intact_score cnn_full_leadwise_cleanfrac20_s1                                                                    NaN       NaN       NaN       NaN       NaN   NaN           0.883435                              0.046494      NaN
+                     SANITY_clean_input_intact_score cnn_full_leadwise_cleanfrac20_s2                                                                    NaN       NaN       NaN       NaN       NaN   NaN           0.887901                              0.054255      NaN
+                     SANITY_clean_input_intact_score                      cnn_full_s0                                                                    NaN       NaN       NaN       NaN       NaN   NaN           0.597513                              0.003630      NaN
+                     SANITY_clean_input_intact_score                      cnn_full_s1                                                                    NaN       NaN       NaN       NaN       NaN   NaN           0.599860                              0.003321      NaN
+                     SANITY_clean_input_intact_score                      cnn_full_s2                                                                    NaN       NaN       NaN       NaN       NaN   NaN           0.647035                              0.003282      NaN
+                                            DECISION    cnn_full_leadwise_cleanfrac20                                                                    NaN       NaN       NaN       NaN       NaN   NaN                NaN                                   NaN RE-SCOPE
+>> ecg_lock_results files [PosixPath('/home/spath004/ecg_lock_results/PRIMARY_endpoints_and_decision.csv'), PosixPath('/home/spath004/ecg_lock_results/T_clean_contrasts.csv'), PosixPath('/home/spath004/ecg_lock_results/T_clean_test.csv'), PosixPath('/home/spath004/ecg_lock_results/T_gate_aurc_raw.csv'), PosixPath('/home/spath004/ecg_lock_results/T_gate_aurc_summary.csv'), PosixPath('/home/spath004/ecg_lock_results/T_gate_fixed_coverage.csv'), PosixPath('/home/spath004/ecg_lock_results/T_perlead_raw.csv'), PosixPath('/home/spath004/ecg_lock_results/T_perlead_summary.csv'), PosixPath('/home/spath004/ecg_lock_results/T_posthoc_rules.csv'), PosixPath('/home/spath004/ecg_lock_results/T_repair_raw.csv'), PosixPath('/home/spath004/ecg_lock_results/T_repair_summary.csv'), PosixPath('/home/spath004/ecg_lock_results/T_stress_contrasts.csv')]
+>> ecg_lock_results_b10k PRIMARY_endpoints_and_decision.csv
+                                            endpoint                            model                                                               per_seed     delta     ci_lo     ci_hi  ci_level  pass  mean_intact_score  frac_clean_leads_flagged_at_tau_mask decision
+   A_perlead_noise_auroc_learned_minus_combined_rule    cnn_full_leadwise_cleanfrac20           [0.3911640630196097, 0.3785389538957571, 0.3853738910093981]  0.385026  0.376376  0.393580     0.950  True                NaN                                   NaN      NaN
+B1_corrupted_macro_auroc_proposed_minus_diagonly_aug    cnn_full_leadwise_cleanfrac20 [-0.004848732236748532, -0.0017856624668723953, -0.004327563330175921] -0.003654 -0.006558 -0.000684     0.975 False                NaN                                   NaN      NaN
+ B2_predicted_mask_repair_macro_auroc_post_minus_pre    cnn_full_leadwise_cleanfrac20 [-0.003547481735836633, -0.0016896025355466193, -0.002572326413223025] -0.002603 -0.004983 -0.000329     0.975 False                NaN                                   NaN      NaN
+                     SANITY_clean_input_intact_score cnn_full_leadwise_cleanfrac20_s0                                                                    NaN       NaN       NaN       NaN       NaN   NaN           0.906551                              0.043675      NaN
+                     SANITY_clean_input_intact_score cnn_full_leadwise_cleanfrac20_s1                                                                    NaN       NaN       NaN       NaN       NaN   NaN           0.883435                              0.046494      NaN
+                     SANITY_clean_input_intact_score cnn_full_leadwise_cleanfrac20_s2                                                                    NaN       NaN       NaN       NaN       NaN   NaN           0.887901                              0.054255      NaN
+                     SANITY_clean_input_intact_score                      cnn_full_s0                                                                    NaN       NaN       NaN       NaN       NaN   NaN           0.597513                              0.003630      NaN
+                     SANITY_clean_input_intact_score                      cnn_full_s1                                                                    NaN       NaN       NaN       NaN       NaN   NaN           0.599860                              0.003321      NaN
+                     SANITY_clean_input_intact_score                      cnn_full_s2                                                                    NaN       NaN       NaN       NaN       NaN   NaN           0.647035                              0.003282      NaN
+                                            DECISION    cnn_full_leadwise_cleanfrac20                                                                    NaN       NaN       NaN       NaN       NaN   NaN                NaN                                   NaN RE-SCOPE
+>> ecg_lock_results_b10k files [PosixPath('/home/spath004/ecg_lock_results_b10k/PRIMARY_endpoints_and_decision.csv'), PosixPath('/home/spath004/ecg_lock_results_b10k/T_clean_contrasts.csv'), PosixPath('/home/spath004/ecg_lock_results_b10k/T_clean_test.csv'), PosixPath('/home/spath004/ecg_lock_results_b10k/T_gate_aurc_raw.csv'), PosixPath('/home/spath004/ecg_lock_results_b10k/T_gate_aurc_summary.csv'), PosixPath('/home/spath004/ecg_lock_results_b10k/T_gate_fixed_coverage.csv'), PosixPath('/home/spath004/ecg_lock_results_b10k/T_perlead_raw.csv'), PosixPath('/home/spath004/ecg_lock_results_b10k/T_perlead_summary.csv'), PosixPath('/home/spath004/ecg_lock_results_b10k/T_repair_raw.csv'), PosixPath('/home/spath004/ecg_lock_results_b10k/T_repair_summary.csv'), PosixPath('/home/spath004/ecg_lock_results_b10k/T_stress_contrasts.csv'), PosixPath('/home/spath004/ecg_lock_results_b10k/T_stress_raw.csv')]

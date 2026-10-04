@@ -1,0 +1,9 @@
+100001 {'sig_len': 87087000, 'n_windows': 8708, 'unannotated': 0, 'pure': {1: 5659, 2: 2471, 3: 20}, 'majority': {1: 6008, 2: 2678, 3: 22}, 'mixed_excluded': 0}
+Traceback (most recent call last):
+  File "/home/spath004/ecg_lock/butqdb_bank.py", line 74, in <module>
+    main()
+  File "/home/spath004/ecg_lock/butqdb_bank.py", line 42, in main
+    for s, e, c in consensus(a.root / rid / f"{rid}_ANN.csv"):
+  File "/home/spath004/ecg_lock/butqdb_bank.py", line 24, in consensus
+    assert c.shape[1] == 3 and np.all(c[:, 2] >= 1) and np.all(c[:, 2] <= 3) and np.all(c[:, 1] >= c[:, 0]), csv
+AssertionError: /home/spath004/data/butqdb/100002/100002_ANN.csv

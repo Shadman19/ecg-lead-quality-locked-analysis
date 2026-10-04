@@ -1,0 +1,28 @@
+cinc
+                           scorer  auroc  det_minus_this  ci_lo  ci_hi  n_pos   n
+              sup_logreg_10foldCV  0.964          -0.100 -0.129 -0.071    225 998
+                 sup_gbm_10foldCV  0.961          -0.096 -0.126 -0.068    225 998
+                         tsqi_bad  0.915          -0.051 -0.084 -0.019    225 998
+                      DET_tx_full  0.886          -0.022 -0.055  0.011    225 998
+DET_cnn_full_leadwise_cleanfrac20  0.864           0.000    NaN    NaN    225 998
+                       bassqi_bad  0.859           0.005 -0.042  0.048    225 998
+            DET_cnn_full_leadwise  0.824           0.040  0.016  0.066    225 998
+                         psqi_bad  0.810           0.054  0.004  0.101    225 998
+                         flat_bad  0.803           0.061  0.011  0.113    225 998
+                         bsqi_bad  0.789           0.075  0.034  0.115    225 998
+                         ksqi_bad  0.751           0.113  0.061  0.164    225 998
+                         ssqi_bad  0.677           0.187  0.133  0.239    225 998
+ptbxl
+                           scorer  auroc  det_minus_this  ci_lo  ci_hi  n_pos     n
+            DET_cnn_full_leadwise  0.809          -0.013 -0.018 -0.009   2083 25896
+                          sup_gbm  0.804          -0.008 -0.021  0.005   2083 25896
+                       sup_logreg  0.797          -0.001 -0.014  0.012   2083 25896
+DET_cnn_full_leadwise_cleanfrac20  0.796           0.000    NaN    NaN   2083 25896
+                         ksqi_bad  0.587           0.209  0.180  0.240   2083 25896
+                         tsqi_bad  0.577           0.219  0.186  0.252   2083 25896
+                      DET_tx_full  0.569           0.227  0.192  0.262   2083 25896
+                         ssqi_bad  0.567           0.229  0.200  0.258   2083 25896
+                         bsqi_bad  0.539           0.257  0.222  0.291   2083 25896
+                       bassqi_bad  0.532           0.264  0.226  0.304   2083 25896
+                         psqi_bad  0.509           0.287  0.256  0.318   2083 25896
+                         flat_bad  0.202           0.594  0.554  0.634   2083 25896

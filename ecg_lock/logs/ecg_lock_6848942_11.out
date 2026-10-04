@@ -1,0 +1,46 @@
+/opt/conda/lib/python3.10/site-packages/torch/nn/modules/conv.py:306: UserWarning: Applied workaround for CuDNN issue, install nvrtc.so (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:80.)
+  return F.conv1d(input, weight, bias, self.stride,
+{"epoch": 0, "train_loss": 0.7171855562326641, "val_clean_macro_auroc": 0.8961903515274251, "sec": 15.27833104133606}
+{"epoch": 1, "train_loss": 0.6589156882429648, "val_clean_macro_auroc": 0.9119081919501799, "sec": 10.517462015151978}
+{"epoch": 2, "train_loss": 0.6399584117412456, "val_clean_macro_auroc": 0.9147257301672074, "sec": 10.540398836135864}
+{"epoch": 3, "train_loss": 0.6256109183857854, "val_clean_macro_auroc": 0.918527247766221, "sec": 10.452350378036499}
+{"epoch": 4, "train_loss": 0.6162365245138055, "val_clean_macro_auroc": 0.9210300901849019, "sec": 10.522150754928589}
+{"epoch": 5, "train_loss": 0.6103675155833911, "val_clean_macro_auroc": 0.9248810540967369, "sec": 10.53991985321045}
+{"epoch": 6, "train_loss": 0.607330382526186, "val_clean_macro_auroc": 0.9281225009508125, "sec": 10.541022300720215}
+{"epoch": 7, "train_loss": 0.6003342880853247, "val_clean_macro_auroc": 0.9301373935072762, "sec": 10.526851415634155}
+{"epoch": 8, "train_loss": 0.5954410701857549, "val_clean_macro_auroc": 0.9282059934842006, "sec": 10.555646181106567}
+{"epoch": 9, "train_loss": 0.5918063918702973, "val_clean_macro_auroc": 0.9310501253898721, "sec": 10.499870538711548}
+{"epoch": 10, "train_loss": 0.5861896799671876, "val_clean_macro_auroc": 0.9214831424182348, "sec": 10.512094259262085}
+{"epoch": 11, "train_loss": 0.5835405116727664, "val_clean_macro_auroc": 0.9286680715304916, "sec": 10.507343053817749}
+{"epoch": 12, "train_loss": 0.5781397275248112, "val_clean_macro_auroc": 0.9312108411315447, "sec": 10.525811433792114}
+{"epoch": 13, "train_loss": 0.5744372564689585, "val_clean_macro_auroc": 0.9288833780830841, "sec": 10.507186889648438}
+{"epoch": 14, "train_loss": 0.5701264126661985, "val_clean_macro_auroc": 0.9320048708055465, "sec": 10.514766693115234}
+{"epoch": 15, "train_loss": 0.5664318993118936, "val_clean_macro_auroc": 0.9311541075726012, "sec": 10.521782159805298}
+{"epoch": 16, "train_loss": 0.5621081098994392, "val_clean_macro_auroc": 0.9322391837468823, "sec": 10.541474103927612}
+{"epoch": 17, "train_loss": 0.5567096534307878, "val_clean_macro_auroc": 0.9319101914333638, "sec": 10.549987077713013}
+{"epoch": 18, "train_loss": 0.554357566185395, "val_clean_macro_auroc": 0.9320633755456387, "sec": 10.552456855773926}
+{"epoch": 19, "train_loss": 0.550324295589221, "val_clean_macro_auroc": 0.9317226451108045, "sec": 10.511149168014526}
+{"epoch": 20, "train_loss": 0.5430313246056448, "val_clean_macro_auroc": 0.934024373237601, "sec": 10.547911882400513}
+{"epoch": 21, "train_loss": 0.537187946495868, "val_clean_macro_auroc": 0.9317480165192883, "sec": 10.51870846748352}
+{"epoch": 22, "train_loss": 0.5347235344857976, "val_clean_macro_auroc": 0.9336497754624995, "sec": 10.527037858963013}
+{"epoch": 23, "train_loss": 0.5309102838085731, "val_clean_macro_auroc": 0.9337514210360329, "sec": 10.505157709121704}
+{"epoch": 24, "train_loss": 0.526495291013903, "val_clean_macro_auroc": 0.9334548744617189, "sec": 10.462209463119507}
+{"epoch": 25, "train_loss": 0.5234470488985482, "val_clean_macro_auroc": 0.932973008428337, "sec": 10.535018920898438}
+{"epoch": 26, "train_loss": 0.520641720035377, "val_clean_macro_auroc": 0.9320250926139311, "sec": 10.52345323562622}
+{"epoch": 27, "train_loss": 0.520798201235528, "val_clean_macro_auroc": 0.9325660811491228, "sec": 10.42442011833191}
+{"epoch": 28, "train_loss": 0.5169626385203795, "val_clean_macro_auroc": 0.9327154359273291, "sec": 10.454684257507324}
+BEST 20 0.934024373237601 d8602c371c2e
+/opt/conda/lib/python3.10/site-packages/torch/nn/modules/conv.py:306: UserWarning: Applied workaround for CuDNN issue, install nvrtc.so (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:80.)
+  return F.conv1d(input, weight, bias, self.stride,
+{
+  "checkpoint_sha256": "d8602c371c2e22d17e87144628bfea33a1b33091b70c045c92e0c9b3b341515d",
+  "bundles": {
+    "val_clean": "2d22d44462ab3bf7d2a19fb05ded356f26f5faedfb04868d72506ab0fcb34bd0",
+    "val_traindist": "8369e51ad2673c0ae109661afd76daa1ace9f8913bb01e08151a16f98446b69b",
+    "val_stress": "83183d026bda40c42c8536fb52a32d757fa1cd138fb11e1f9a8d7f8706a99a6c",
+    "test_clean": "e8493fc1512d0cb497fa88d0497b5a79016c44091b2c7e0f7d714b5cfa96f0e2",
+    "test_traindist": "f695051892dc5a2da53af54cbd9eeed03914d43242a74d285b30023b23e9096b",
+    "test_stress": "8dde5256d7c11ef73252759e98fa5c007552e717a8f3e775a3de3eb6474dac14"
+  }
+}
+DONE cnn_diag_lead 2

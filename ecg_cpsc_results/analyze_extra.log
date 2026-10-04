@@ -1,0 +1,21 @@
+nohup: ignoring input
+class                              CD     HYP      MI    NORM    STTC
+config                                                               
+cnn_diagonly_aug               0.9931  0.9570  0.9774  0.9670  0.9879
+cnn_diagonly_clean             0.9917  0.9533  0.9722  0.9607  0.9857
+cnn_full                       0.9906  0.9459  0.9743  0.9606  0.9866
+cnn_full_leadwise_cleanfrac20  0.9905  0.9533  0.9739  0.9628  0.9861
+class                              CD     HYP      MI    NORM    STTC
+config                                                               
+cnn_diagonly_aug               0.9900  0.9505  0.9755  0.9602  0.9869
+cnn_diagonly_clean             0.9789  0.9215  0.9644  0.9389  0.9698
+cnn_full                       0.9876  0.9399  0.9718  0.9529  0.9845
+cnn_full_leadwise_cleanfrac20  0.9879  0.9463  0.9718  0.9544  0.9855
+{'contrast': 'cnn_full_leadwise_cleanfrac20 minus cnn_diagonly_aug', 'per_seed': '[-0.0042, -0.005, -0.0011]', 'delta': -0.0034412577521056495, 'ci95_lo': -0.008182140009787611, 'ci95_hi': 0.0005428119237822574, 'realizations': 5, 'status': 'SECONDARY'}
+{'contrast': 'cnn_full minus cnn_diagonly_aug', 'per_seed': '[-0.0081, -0.0049, -0.0029]', 'delta': -0.00527566086918189, 'ci95_lo': -0.008780309898082799, 'ci95_hi': -0.0022513358791972026, 'realizations': 5, 'status': 'SECONDARY'}
+{'contrast': 'cnn_diagonly_aug minus cnn_diagonly_clean', 'per_seed': '[0.0177, 0.0155, 0.0205]', 'delta': 0.01790990822188987, 'ci95_lo': 0.01346807138104784, 'ci95_hi': 0.022376429817277117, 'realizations': 5, 'status': 'SECONDARY'}
+{'contrast': 'cnn_full_leadwise_cleanfrac20 repair post_oracle minus pre', 'per_seed': '[-0.0014, -0.0045, -0.0019]', 'delta': -0.0026377573452763814, 'ci95_lo': -0.004491573387055567, 'ci95_hi': -0.0008998672502363472, 'realizations': 5, 'status': 'SECONDARY'}
+{'contrast': 'cnn_full_leadwise_cleanfrac20 repair post_pred minus pre', 'per_seed': '[-0.0013, -0.0039, -0.0024]', 'delta': -0.002545339673656185, 'ci95_lo': -0.0048916056852172495, 'ci95_hi': -0.00035422754400053985, 'realizations': 5, 'status': 'SECONDARY'}
+{'contrast': 'cnn_full repair post_oracle minus pre', 'per_seed': '[-0.0013, -0.0014, -0.0018]', 'delta': -0.00150836649536427, 'ci95_lo': -0.0033776021895413418, 'ci95_hi': 0.0003518846013109427, 'realizations': 5, 'status': 'SECONDARY'}
+{'contrast': 'cnn_full repair post_pred minus pre', 'per_seed': '[-0.0046, -0.0019, -0.0042]', 'delta': -0.0035566511736068174, 'ci95_lo': -0.005523038576006493, 'ci95_hi': -0.001705184340406718, 'realizations': 5, 'status': 'SECONDARY'}
+wrote /home/spath004/ecg_cpsc_results

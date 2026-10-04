@@ -1,0 +1,3 @@
+/opt/conda/lib/python3.10/site-packages/torch/nn/modules/conv.py:306: UserWarning: Applied workaround for CuDNN issue, install nvrtc.so (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:80.)
+  return F.conv1d(input, weight, bias, self.stride,
+DONE /scratch/spath004/ecg_lock_runs/cnn_diagonly_clean_s1/bundles/test_traindist_multireal_v1.npz 13179fcb6677

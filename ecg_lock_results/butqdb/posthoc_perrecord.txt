@@ -1,0 +1,22 @@
+>> Q1_c3_vs_c1 per-recording detector n_rec 6 median 1.0 min 0.838 max 1.0 mean 0.969 recCI [0.915, 1.0]
+>> Q1_c3_vs_c1 per-recording best_index n_rec 6 median 1.0 min 0.916 max 1.0 mean 0.986 recCI [0.958, 1.0]
+>> Q1_c3_vs_c1 per-recording logreg_ptbxl n_rec 6 median 0.998 min 0.84 max 1.0 mean 0.971 recCI [0.918, 0.999]
+>> Q1_c3_vs_c1 per-recording ceiling_loso n_rec 6 median 1.0 min 0.937 max 1.0 mean 0.989 recCI [0.968, 1.0]
+>> Q1_c3_vs_c1 per-recording detector minus best index: mean -0.017 recCI [-0.043, 0.0] recordings detector >= index 3 of 6 | detector minus ceiling mean -0.021
+>> Q1_c3_vs_c1 capped250 detector n 3763 pos 741 auroc 0.881 subjCI [0.71, 1.0]
+>> Q1_c3_vs_c1 capped250 best_index n 3763 pos 741 auroc 0.989 subjCI [0.966, 1.0]
+>> Q1_c3_vs_c1 capped250 logreg_ptbxl n 3763 pos 741 auroc 0.896 subjCI [0.761, 0.997]
+>> Q1_c3_vs_c1 capped250 ceiling_loso n 3763 pos 741 auroc 0.956 subjCI [0.891, 1.0]
+>> Q1_c3_vs_c1 capped250 detector minus best index -0.108 subjCI [-0.256, -0.0]
+>> Q1_c3_vs_c1 without 105001: n 11529 pos 491 detector=0.832 best_index=0.979 logreg_ptbxl=0.858 ceiling_loso=0.945
+>> Q3_c23_vs_c1 per-recording detector n_rec 15 median 0.994 min 0.856 max 1.0 mean 0.978 recCI [0.953, 0.996]
+>> Q3_c23_vs_c1 per-recording best_index n_rec 15 median 0.779 min 0.529 max 0.983 mean 0.786 recCI [0.709, 0.866]
+>> Q3_c23_vs_c1 per-recording logreg_ptbxl n_rec 15 median 0.947 min 0.799 max 1.0 mean 0.935 recCI [0.897, 0.965]
+>> Q3_c23_vs_c1 per-recording ceiling_loso n_rec 15 median 0.986 min 0.865 max 1.0 mean 0.967 recCI [0.943, 0.985]
+>> Q3_c23_vs_c1 per-recording detector minus best index: mean 0.192 recCI [0.115, 0.27] recordings detector >= index 14 of 15 | detector minus ceiling mean 0.011
+>> Q3_c23_vs_c1 capped250 detector n 4513 pos 1491 auroc 0.938 subjCI [0.881, 0.996]
+>> Q3_c23_vs_c1 capped250 best_index n 4513 pos 1491 auroc 0.746 subjCI [0.615, 0.864]
+>> Q3_c23_vs_c1 capped250 logreg_ptbxl n 4513 pos 1491 auroc 0.909 subjCI [0.86, 0.967]
+>> Q3_c23_vs_c1 capped250 ceiling_loso n 4513 pos 1491 auroc 0.923 subjCI [0.871, 0.984]
+>> Q3_c23_vs_c1 capped250 detector minus best index 0.192 subjCI [0.096, 0.312]
+>> Q3_c23_vs_c1 without 105001: n 18704 pos 7666 detector=0.849 best_index=0.731 logreg_ptbxl=0.836 ceiling_loso=0.884

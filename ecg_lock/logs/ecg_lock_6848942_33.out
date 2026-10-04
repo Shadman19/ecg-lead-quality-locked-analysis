@@ -1,0 +1,47 @@
+/opt/conda/lib/python3.10/site-packages/torch/nn/modules/conv.py:306: UserWarning: Applied workaround for CuDNN issue, install nvrtc.so (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:80.)
+  return F.conv1d(input, weight, bias, self.stride,
+{"epoch": 0, "train_loss": 0.38428113535064023, "val_clean_macro_auroc": 0.8861125297340315, "sec": 16.200159788131714}
+{"epoch": 1, "train_loss": 0.3208090450690575, "val_clean_macro_auroc": 0.8987971966207768, "sec": 11.802609920501709}
+{"epoch": 2, "train_loss": 0.30638496930469145, "val_clean_macro_auroc": 0.9121285460989567, "sec": 11.939800500869751}
+{"epoch": 3, "train_loss": 0.29698077408024254, "val_clean_macro_auroc": 0.907605811683123, "sec": 11.877969741821289}
+{"epoch": 4, "train_loss": 0.29041877687605394, "val_clean_macro_auroc": 0.9134475148944665, "sec": 11.796579837799072}
+{"epoch": 5, "train_loss": 0.28313237089542503, "val_clean_macro_auroc": 0.9172367905222893, "sec": 11.758163690567017}
+{"epoch": 6, "train_loss": 0.28124114247206866, "val_clean_macro_auroc": 0.9217886923518434, "sec": 11.950971841812134}
+{"epoch": 7, "train_loss": 0.27467734106556646, "val_clean_macro_auroc": 0.9191336730031864, "sec": 11.778242349624634}
+{"epoch": 8, "train_loss": 0.2725880083156341, "val_clean_macro_auroc": 0.9227389859874675, "sec": 11.778717994689941}
+{"epoch": 9, "train_loss": 0.2698907157494742, "val_clean_macro_auroc": 0.9219875535799951, "sec": 11.789356708526611}
+{"epoch": 10, "train_loss": 0.26745506151865195, "val_clean_macro_auroc": 0.9240130705504118, "sec": 12.05051326751709}
+{"epoch": 11, "train_loss": 0.26603589041733794, "val_clean_macro_auroc": 0.9267418073233827, "sec": 11.794322967529297}
+{"epoch": 12, "train_loss": 0.2612711027686754, "val_clean_macro_auroc": 0.925658119551041, "sec": 11.797412633895874}
+{"epoch": 13, "train_loss": 0.25793409899131836, "val_clean_macro_auroc": 0.9265982506430623, "sec": 11.807167291641235}
+{"epoch": 14, "train_loss": 0.25303574563384584, "val_clean_macro_auroc": 0.9248964626924236, "sec": 12.018502235412598}
+{"epoch": 15, "train_loss": 0.2534636994682076, "val_clean_macro_auroc": 0.9277980647613265, "sec": 11.802825450897217}
+{"epoch": 16, "train_loss": 0.2500269546236095, "val_clean_macro_auroc": 0.9283782888440646, "sec": 11.784221410751343}
+{"epoch": 17, "train_loss": 0.24801737645754796, "val_clean_macro_auroc": 0.9276405150097426, "sec": 11.805145263671875}
+{"epoch": 18, "train_loss": 0.2443583101711014, "val_clean_macro_auroc": 0.9282950641066179, "sec": 12.008439540863037}
+{"epoch": 19, "train_loss": 0.24264628920042106, "val_clean_macro_auroc": 0.928235092367949, "sec": 11.769449949264526}
+{"epoch": 20, "train_loss": 0.2388929163815126, "val_clean_macro_auroc": 0.9283817325984904, "sec": 11.82159423828125}
+{"epoch": 21, "train_loss": 0.23696505555543318, "val_clean_macro_auroc": 0.9296700169972663, "sec": 11.809959650039673}
+{"epoch": 22, "train_loss": 0.234632138645194, "val_clean_macro_auroc": 0.929917679388252, "sec": 12.013242244720459}
+{"epoch": 23, "train_loss": 0.23101810398885556, "val_clean_macro_auroc": 0.9292130112913366, "sec": 11.8133864402771}
+{"epoch": 24, "train_loss": 0.2289411198915628, "val_clean_macro_auroc": 0.9302174182467265, "sec": 11.784983158111572}
+{"epoch": 25, "train_loss": 0.22921966094793186, "val_clean_macro_auroc": 0.9299103094965495, "sec": 11.79703140258789}
+{"epoch": 26, "train_loss": 0.22769107337272634, "val_clean_macro_auroc": 0.9304067471349716, "sec": 12.00307035446167}
+{"epoch": 27, "train_loss": 0.22654537905772545, "val_clean_macro_auroc": 0.9302582154716484, "sec": 11.743319988250732}
+{"epoch": 28, "train_loss": 0.22565177087899924, "val_clean_macro_auroc": 0.9302091652374223, "sec": 11.804875135421753}
+{"epoch": 29, "train_loss": 0.22533654908795067, "val_clean_macro_auroc": 0.9304208610931882, "sec": 11.793930530548096}
+BEST 29 0.9304208610931882 802657f00107
+/opt/conda/lib/python3.10/site-packages/torch/nn/modules/conv.py:306: UserWarning: Applied workaround for CuDNN issue, install nvrtc.so (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:80.)
+  return F.conv1d(input, weight, bias, self.stride,
+{
+  "checkpoint_sha256": "802657f001076b407d9baafdfe38ae327d2bf99208f9270301391e25098579c0",
+  "bundles": {
+    "val_clean": "a28ea2fcaa7fb3bb204ee7cc37852e0a81ea92b3417234ce12d3347f9258856c",
+    "val_traindist": "2544964e818fb79226d13cf0d7b8ec9fc7b4cd6c5275bdafd0abb43f7e4df137",
+    "val_stress": "3d46d661196f4cf251765bcd016f17aa54f1c26209591bf02de4a70475339397",
+    "test_clean": "c324b88c2dda23b7c4fa10fb9b6ec697de62f82063bf78ad2bb5bb8b56826d57",
+    "test_traindist": "d4ad3bb616db2ce1c958d686f4e885c5de397514d0b139fc67a5fd21b830e233",
+    "test_stress": "14b46050988f16f9f462aaec515e442120389e008a75350e3ced7e9b5f857703"
+  }
+}
+DONE inception_aug 0

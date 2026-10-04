@@ -1,0 +1,11 @@
+endpoint,model,per_seed,delta,ci_lo,ci_hi,ci_level,pass,mean_intact_score,frac_clean_leads_flagged_at_tau_mask,decision
+A_perlead_noise_auroc_learned_minus_combined_rule,cnn_full_leadwise_cleanfrac20,"[0.3911640630196097, 0.3785389538957571, 0.3853738910093981]",0.3850256359749216,0.3766337237461656,0.3936349961529919,0.95,True,,,
+B1_corrupted_macro_auroc_proposed_minus_diagonly_aug,cnn_full_leadwise_cleanfrac20,"[-0.004848732236748532, -0.0017856624668723953, -0.004327563330175921]",-0.003653986011265616,-0.006732272694662767,-0.0007709120229516958,0.975,False,,,
+B2_predicted_mask_repair_macro_auroc_post_minus_pre,cnn_full_leadwise_cleanfrac20,"[-0.003547481735836633, -0.0016896025355466193, -0.002572326413223025]",-0.002603136894868759,-0.005074619788461727,-0.00036907570090661927,0.975,False,,,
+SANITY_clean_input_intact_score,cnn_full_leadwise_cleanfrac20_s0,,,,,,,0.9065508842468262,0.043674698795180725,
+SANITY_clean_input_intact_score,cnn_full_leadwise_cleanfrac20_s1,,,,,,,0.8834350109100342,0.046493666975594684,
+SANITY_clean_input_intact_score,cnn_full_leadwise_cleanfrac20_s2,,,,,,,0.8879007697105408,0.05425548347235094,
+SANITY_clean_input_intact_score,cnn_full_s0,,,,,,,0.5975125432014465,0.003629904232313871,
+SANITY_clean_input_intact_score,cnn_full_s1,,,,,,,0.5998598337173462,0.0033209762125424778,
+SANITY_clean_input_intact_score,cnn_full_s2,,,,,,,0.6470354199409485,0.0032823602100710537,
+DECISION,cnn_full_leadwise_cleanfrac20,,,,,,,,,RE-SCOPE

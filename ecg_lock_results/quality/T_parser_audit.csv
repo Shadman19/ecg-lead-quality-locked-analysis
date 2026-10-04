@@ -1,0 +1,238 @@
+field,raw,n_all,n_test,leads,recognized
+static_noise,"' , 2,  '",1,0,,False
+static_noise,"' , 3ES,  '",1,0,,False
+static_noise,"' , AVF,  '",1,0,AVF,True
+static_noise,"' , AVL,  '",3,1,AVL,True
+static_noise,"' , AVL,V2,  '",1,0,"AVL,V2",True
+static_noise,"' , Alles,  '",1,0,"I,II,III,AVR,AVL,AVF,V1,V2,V3,V4,V5,V6",True
+static_noise,"' , I ,  '",1,0,I,True
+static_noise,"' , I - AVF,  '",8,2,"I,II,III,AVR,AVL,AVF",True
+static_noise,"' , I - AVF,V5,V6,  '",1,0,"I,II,III,AVR,AVL,AVF,V5,V6",True
+static_noise,"' , I - AVR,  '",5,1,"I,II,III,AVR",True
+static_noise,"' , I - V1,  '",4,1,"I,II,III,AVR,AVL,AVF,V1",True
+static_noise,"' , I - V2,  '",1,0,"I,II,III,AVR,AVL,AVF,V1,V2",True
+static_noise,"' , I - V2,V5,V6,  '",1,0,"I,II,III,AVR,AVL,AVF,V1,V2,V5,V6",True
+static_noise,"' , I --AVL,  '",1,1,,False
+static_noise,"' , I -AVF,  '",2,0,"I,II,III,AVR,AVL,AVF",True
+static_noise,"' , I -V1,  '",1,0,"I,II,III,AVR,AVL,AVF,V1",True
+static_noise,"' , I -V2,  '",1,0,"I,II,III,AVR,AVL,AVF,V1,V2",True
+static_noise,"' , I,  '",8,3,I,True
+static_noise,"' , I,AVL,  '",7,1,"I,AVL",True
+static_noise,"' , I,AVL,AVR,  '",1,0,"I,AVR,AVL",True
+static_noise,"' , I,AVL,V1,  '",2,0,"I,AVL,V1",True
+static_noise,"' , I,AVL,V3,  '",1,0,"I,AVL,V3",True
+static_noise,"' , I,AVL,V6,  '",1,0,"I,AVL,V6",True
+static_noise,"' , I,AVR,  '",2,0,"I,AVR",True
+static_noise,"' , I,II,  '",24,0,"I,II",True
+static_noise,"' , I,II,AVF,  '",1,0,"I,II,AVF",True
+static_noise,"' , I,II,AVL,  '",4,1,"I,II,AVL",True
+static_noise,"' , I,II,AVL,AVF,  '",1,0,"I,II,AVL,AVF",True
+static_noise,"' , I,II,AVL,AVR,  '",5,1,"I,II,AVR,AVL",True
+static_noise,"' , I,II,AVL,V2,  '",1,0,"I,II,AVL,V2",True
+static_noise,"' , I,II,AVL,V5;V6,  '",1,0,"I,II,AVL,V5,V6",True
+static_noise,"' , I,II,AVL-AVF,  '",2,1,"I,II,AVL,AVF",True
+static_noise,"' , I,II,AVL-V1,  '",1,0,"I,II,AVL,AVF,V1",True
+static_noise,"' , I,II,AVR,  '",11,0,"I,II,AVR",True
+static_noise,"' , I,II,AVR,AVL.AVF,V1,  '",1,0,"I,II,AVR,V1",True
+static_noise,"' , I,II,AVR,V1,  '",1,0,"I,II,AVR,V1",True
+static_noise,"' , I,II,AVR,V6,  '",1,0,"I,II,AVR,V6",True
+static_noise,"' , I,II,III,AVL,  '",1,0,"I,II,III,AVL",True
+static_noise,"' , I,II,III,AVR,AVL,AVF,  '",1,0,"I,II,III,AVR,AVL,AVF",True
+static_noise,"' , I,II,V5,  '",1,0,"I,II,V5",True
+static_noise,"' , I,II-AVR,  '",1,0,"I,II,III,AVR",True
+static_noise,"' , I,III,  '",2,1,"I,III",True
+static_noise,"' , I,III,AVL,  '",12,2,"I,III,AVL",True
+static_noise,"' , I,III,AVL,AVF,V6,  '",1,1,"I,III,AVL,AVF,V6",True
+static_noise,"' , I,III,AVL,AVR,  '",1,0,"I,III,AVR,AVL",True
+static_noise,"' , I,III,AVL,V1,  '",2,0,"I,III,AVL,V1",True
+static_noise,"' , I,III,AVL,V1-V6,  '",1,0,"I,III,AVL,V1,V2,V3,V4,V5,V6",True
+static_noise,"' , I,III,AVL-V2,  '",1,0,"I,III,AVL,AVF,V1,V2",True
+static_noise,"' , I,III,V5,  '",1,0,"I,III,V5",True
+static_noise,"' , I,III-AVF,  '",1,0,"I,III,AVR,AVL,AVF",True
+static_noise,"' , I,III-AVR,  '",3,3,"I,III,AVR",True
+static_noise,"' , I,III-V2,  '",1,0,"I,III,AVR,AVL,AVF,V1,V2",True
+static_noise,"' , I,III-V6,  '",1,0,"I,III,AVR,AVL,AVF,V1,V2,V3,V4,V5,V6",True
+static_noise,"' , I,V2,  '",1,0,"I,V2",True
+static_noise,"' , I,V4,  '",1,0,"I,V4",True
+static_noise,"' , I-ALF,  '",1,0,,False
+static_noise,"' , I-AVF,  '",909,41,"I,II,III,AVR,AVL,AVF",True
+static_noise,"' , I-AVF, noisy recording,'",2,0,"I,II,III,AVR,AVL,AVF",True
+static_noise,"' , I-AVF,V4-V6,  '",1,0,"I,II,III,AVR,AVL,AVF,V4,V5,V6",True
+static_noise,"' , I-AVF,V5,V6,  '",1,1,"I,II,III,AVR,AVL,AVF,V5,V6",True
+static_noise,"' , I-AVF,V6,  '",3,1,"I,II,III,AVR,AVL,AVF,V6",True
+static_noise,"' , I-AVL,  '",91,10,"I,II,III,AVR,AVL",True
+static_noise,"' , I-AVL,V5,V6,  '",1,0,"I,II,III,AVR,AVL,V5,V6",True
+static_noise,"' , I-AVR,  '",945,81,"I,II,III,AVR",True
+static_noise,"' , I-AVR, noisy recording,'",1,0,"I,II,III,AVR",True
+static_noise,"' , I-AVR,V5,  '",1,1,"I,II,III,AVR,V5",True
+static_noise,"' , I-AVR,V5,V6,  '",4,0,"I,II,III,AVR,V5,V6",True
+static_noise,"' , I-AVR,V6,  '",4,1,"I,II,III,AVR,V6",True
+static_noise,"' , I-Avf,  '",1,0,"I,II,III,AVR,AVL,AVF",True
+static_noise,"' , I-Avl,  '",1,0,"I,II,III,AVR,AVL",True
+static_noise,"' , I-Avr,  '",3,0,"I,II,III,AVR",True
+static_noise,"' , I-III,  '",6,1,"I,II,III",True
+static_noise,"' , I-V!,V5,V6,  '",1,0,"V5,V6",True
+static_noise,"' , I-V1,  '",155,29,"I,II,III,AVR,AVL,AVF,V1",True
+static_noise,"' , I-V1, noisy recording,'",2,0,"I,II,III,AVR,AVL,AVF,V1",True
+static_noise,"' , I-V1,V5,  '",1,0,"I,II,III,AVR,AVL,AVF,V1,V5",True
+static_noise,"' , I-V1,V5,V6,  '",1,0,"I,II,III,AVR,AVL,AVF,V1,V5,V6",True
+static_noise,"' , I-V1,V6,  '",1,0,"I,II,III,AVR,AVL,AVF,V1,V6",True
+static_noise,"' , I-V2,  '",140,15,"I,II,III,AVR,AVL,AVF,V1,V2",True
+static_noise,"' , I-V2, noisy recording,'",1,0,"I,II,III,AVR,AVL,AVF,V1,V2",True
+static_noise,"' , I-V2,V5,V6,  '",2,0,"I,II,III,AVR,AVL,AVF,V1,V2,V5,V6",True
+static_noise,"' , I-V2,V6,  '",2,1,"I,II,III,AVR,AVL,AVF,V1,V2,V6",True
+static_noise,"' , I-V3,  '",5,1,"I,II,III,AVR,AVL,AVF,V1,V2,V3",True
+static_noise,"' , I-V4,  '",1,0,"I,II,III,AVR,AVL,AVF,V1,V2,V3,V4",True
+static_noise,"' , I-v2,  '",1,0,"I,II,III,AVR,AVL,AVF,V1,V2",True
+static_noise,"' , I.II,  '",1,0,,False
+static_noise,"' , II,AVL,  '",1,0,"II,AVL",True
+static_noise,"' , II,III,AVF,  '",1,0,"II,III,AVF",True
+static_noise,"' , III,AVL,  '",1,0,"III,AVL",True
+static_noise,"' , III-AVL,  '",1,0,"III,AVR,AVL",True
+static_noise,"' , Stark, noisy recording,'",1,0,,False
+static_noise,"' , V1,  '",13,2,V1,True
+static_noise,"' , V1,V2,  '",4,0,"V1,V2",True
+static_noise,"' , V2,  '",11,1,V2,True
+static_noise,"' , V2,V3,  '",2,1,"V2,V3",True
+static_noise,"' , V3,  '",4,0,V3,True
+static_noise,"' , V4,  '",3,0,V4,True
+static_noise,"' , V5,  '",4,0,V5,True
+static_noise,"' , V5,V6,  '",1,0,"V5,V6",True
+static_noise,"' , V6,  '",8,0,V6,True
+static_noise,"' , alle,  '",1,0,,False
+static_noise,"' , alles,  '",495,72,"I,II,III,AVR,AVL,AVF,V1,V2,V3,V4,V5,V6",True
+static_noise,"' , alles, noisy recording,'",17,5,"I,II,III,AVR,AVL,AVF,V1,V2,V3,V4,V5,V6",True
+static_noise,"' , avl-iii, Stark,  '",1,0,"III,AVR,AVL",True
+static_noise,"' , leicht,  '",42,5,,False
+static_noise,"' , mittel I,  '",1,0,,False
+static_noise,"' , mittel,  '",70,5,,False
+static_noise,"' , mittel, noisy recording,'",6,2,,False
+static_noise,"' , noise,  '",9,0,,False
+static_noise,"' , noise, noisy recording,'",1,0,,False
+static_noise,"' , noisy recording,'",21,0,,False
+static_noise,"' , stark,  '",25,5,,False
+static_noise,"' , stark, noisy recording,'",4,1,,False
+static_noise,"' , v2 mittel,  '",1,0,,False
+static_noise,"' , v3,  '",1,0,V3,True
+static_noise,"'I stark,  ,  '",1,0,,False
+static_noise,"'I,II,III.AVR,AVL,  ,  '",1,0,"I,II,AVL",True
+static_noise,"'I,III,AVF,AVL,V2,  ,  '",1,0,"I,III,AVL,AVF,V2",True
+static_noise,"'V1,  ,  '",1,0,V1,True
+static_noise,"'alle,  ,  '",1,0,,False
+static_noise,"'leicht,  ,  '",14,3,,False
+static_noise,"'leicht, leicht,  '",2,0,,False
+static_noise,"'mittel,  ,  '",3,2,,False
+burst_noise,' ',1,0,,False
+burst_noise,'AVL',2,0,AVL,True
+burst_noise,"'AVL,AVR'",1,0,"AVR,AVL",True
+burst_noise,'I',2,0,I,True
+burst_noise,"'I,AVL'",3,1,"I,AVL",True
+burst_noise,"'I,AVR,V1'",1,0,"I,AVR,V1",True
+burst_noise,"'I,II'",3,0,"I,II",True
+burst_noise,"'I,II,AVL,AVR'",1,0,"I,II,AVR,AVL",True
+burst_noise,"'I,II,AVL-AVR'",1,0,"I,II,AVR,AVL",True
+burst_noise,"'I,II,AVL-V2'",1,1,"I,II,AVL,AVF,V1,V2",True
+burst_noise,"'I,II,AVL-V6'",1,0,"I,II,AVL,AVF,V1,V2,V3,V4,V5,V6",True
+burst_noise,"'I,II,AVR'",1,0,"I,II,AVR",True
+burst_noise,"'I,II,AVR,V2'",1,0,"I,II,AVR,V2",True
+burst_noise,"'I,II,III'",1,0,"I,II,III",True
+burst_noise,"'I,II,V1'",1,0,"I,II,V1",True
+burst_noise,"'I,III,AVL'",4,0,"I,III,AVL",True
+burst_noise,"'I,III,AVL,AVF;V6'",1,0,"I,III,AVL,AVF,V6",True
+burst_noise,"'I,III,V5,V6'",1,0,"I,III,V5,V6",True
+burst_noise,"'I,III-AVF,V2'",1,1,"I,III,AVR,AVL,AVF,V2",True
+burst_noise,"'I,III-AVL'",1,1,"I,III,AVR,AVL",True
+burst_noise,"'I,III-AVR'",2,1,"I,III,AVR",True
+burst_noise,'I-ALF',2,0,,False
+burst_noise,'I-AVF',46,2,"I,II,III,AVR,AVL,AVF",True
+burst_noise,'I-AVL',2,0,"I,II,III,AVR,AVL",True
+burst_noise,'I-AVR',23,3,"I,II,III,AVR",True
+burst_noise,'I-Avf',1,0,"I,II,III,AVR,AVL,AVF",True
+burst_noise,'I-V1',20,2,"I,II,III,AVR,AVL,AVF,V1",True
+burst_noise,'I-V2',20,2,"I,II,III,AVR,AVL,AVF,V1,V2",True
+burst_noise,'I-V3',5,1,"I,II,III,AVR,AVL,AVF,V1,V2,V3",True
+burst_noise,'I-V4',1,0,"I,II,III,AVR,AVL,AVF,V1,V2,V3,V4",True
+burst_noise,'I-V5',3,0,"I,II,III,AVR,AVL,AVF,V1,V2,V3,V4,V5",True
+burst_noise,'II',5,1,II,True
+burst_noise,"'II, III, avf'",1,0,"II,III,AVF",True
+burst_noise,"'II,AVR-V3'",1,0,"II,AVR,AVL,AVF,V1,V2,V3",True
+burst_noise,"'II,III,V1,V2'",2,0,"II,III,V1,V2",True
+burst_noise,"'II,V1,V2'",1,0,"II,V1,V2",True
+burst_noise,"'II,V2'",2,0,"II,V2",True
+burst_noise,'II-AVF',3,0,"II,III,AVR,AVL,AVF",True
+burst_noise,'II-AVL',1,0,"II,III,AVR,AVL",True
+burst_noise,"'II-AVL,V1,V2'",1,0,"II,III,AVR,AVL,V1,V2",True
+burst_noise,'II-V1',2,0,"II,III,AVR,AVL,AVF,V1",True
+burst_noise,'II-V2',1,0,"II,III,AVR,AVL,AVF,V1,V2",True
+burst_noise,'III',1,0,III,True
+burst_noise,"'III,AVL'",1,0,"III,AVL",True
+burst_noise,"'III,V1'",1,0,"III,V1",True
+burst_noise,'V1',43,0,V1,True
+burst_noise,"'V1,V2'",23,1,"V1,V2",True
+burst_noise,"'V1,V2,V5'",1,0,"V1,V2,V5",True
+burst_noise,"'V1,V3'",1,0,"V1,V3",True
+burst_noise,"'V1,V4'",1,0,"V1,V4",True
+burst_noise,"'V1,V5'",2,0,"V1,V5",True
+burst_noise,"'V1,V6'",1,0,"V1,V6",True
+burst_noise,'V1-V3',3,0,"V1,V2,V3",True
+burst_noise,'V1-V4',2,0,"V1,V2,V3,V4",True
+burst_noise,'V1-V5',2,0,"V1,V2,V3,V4,V5",True
+burst_noise,'V1-V6',3,0,"V1,V2,V3,V4,V5,V6",True
+burst_noise,'V2',21,2,V2,True
+burst_noise,"'V2,3'",1,0,V2,True
+burst_noise,"'V2,4'",1,0,V2,True
+burst_noise,"'V2,V3'",1,0,"V2,V3",True
+burst_noise,"'V2,V4'",1,0,"V2,V4",True
+burst_noise,'V2-V6',2,0,"V2,V3,V4,V5,V6",True
+burst_noise,'V3',13,1,V3,True
+burst_noise,'V3-V5',1,0,"V3,V4,V5",True
+burst_noise,'V3-V6',3,0,"V3,V4,V5,V6",True
+burst_noise,'V4',12,2,V4,True
+burst_noise,"'V4,5,6'",1,0,V4,True
+burst_noise,"'V4,V5'",1,0,"V4,V5",True
+burst_noise,'V4-V6',1,0,"V4,V5,V6",True
+burst_noise,'V5',13,1,V5,True
+burst_noise,"'V5,6'",1,0,V5,True
+burst_noise,"'V5,V6'",2,0,"V5,V6",True
+burst_noise,'V6',7,0,V6,True
+burst_noise,'alle',4,0,,False
+burst_noise,'alle Abl.',1,0,,False
+burst_noise,'alles',130,3,"I,II,III,AVR,AVL,AVF,V1,V2,V3,V4,V5,V6",True
+burst_noise,'ja',1,1,,False
+burst_noise,'v1',7,1,V1,True
+burst_noise,"'v1,2'",1,0,V1,True
+burst_noise,'v1-2',1,0,,False
+burst_noise,'v1-6',5,1,,False
+burst_noise,'v2',10,0,V2,True
+burst_noise,"'v2,3'",3,1,V2,True
+burst_noise,'v2-3',1,0,,False
+burst_noise,'v3',16,2,V3,True
+burst_noise,"'v3,4'",1,0,V3,True
+burst_noise,"'v3,6'",1,0,V3,True
+burst_noise,'v3-4',5,1,,False
+burst_noise,'v3-5',1,0,,False
+burst_noise,'v4',8,1,V4,True
+burst_noise,"'v4, v5'",1,0,"V4,V5",True
+burst_noise,"'v4,5'",1,0,V4,True
+burst_noise,"'v4,6'",2,0,V4,True
+burst_noise,'v4-5',3,0,,False
+burst_noise,'v4-6',1,0,,False
+burst_noise,'v5',11,0,V5,True
+burst_noise,"'v5, v6'",1,1,"V5,V6",True
+burst_noise,"'v5,6'",4,0,V5,True
+burst_noise,'v5-6',5,1,,False
+burst_noise,'v6',15,2,V6,True
+electrodes_problems,'Elektroden vertauscht???',1,0,,False
+electrodes_problems,'I???',1,0,I,True
+electrodes_problems,'Kontaktprobleme aVL ???',1,0,,False
+electrodes_problems,'V1',4,0,V1,True
+electrodes_problems,'V1???',2,0,V1,True
+electrodes_problems,'V3',1,0,V3,True
+electrodes_problems,"'V3,V4-V6'",1,0,"V3,V4,V5,V6",True
+electrodes_problems,'V4',4,1,V4,True
+electrodes_problems,'V5',2,0,V5,True
+electrodes_problems,"'V5,V6'",1,0,"V5,V6",True
+electrodes_problems,'V6',7,1,V6,True
+electrodes_problems,'aVL???',1,0,AVL,True
+electrodes_problems,"'v4, v5'",1,0,"V4,V5",True
+electrodes_problems,'v6????',1,0,V6,True

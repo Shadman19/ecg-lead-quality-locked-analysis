@@ -1,0 +1,41 @@
+/opt/conda/lib/python3.10/site-packages/torch/nn/modules/conv.py:306: UserWarning: Applied workaround for CuDNN issue, install nvrtc.so (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:80.)
+  return F.conv1d(input, weight, bias, self.stride,
+{"epoch": 0, "train_loss": 0.35263025519915414, "val_clean_macro_auroc": 0.8784796535207839, "sec": 8.616159439086914}
+{"epoch": 1, "train_loss": 0.29821492395588567, "val_clean_macro_auroc": 0.9081123022675293, "sec": 4.605241060256958}
+{"epoch": 2, "train_loss": 0.2822641962844799, "val_clean_macro_auroc": 0.9167418554560853, "sec": 4.5948805809021}
+{"epoch": 3, "train_loss": 0.2721999557368288, "val_clean_macro_auroc": 0.9162284536065851, "sec": 4.601807594299316}
+{"epoch": 4, "train_loss": 0.26384889028636727, "val_clean_macro_auroc": 0.9198137164703581, "sec": 4.594955921173096}
+{"epoch": 5, "train_loss": 0.25780296835763145, "val_clean_macro_auroc": 0.9234337811053402, "sec": 4.601781606674194}
+{"epoch": 6, "train_loss": 0.2550988981286136, "val_clean_macro_auroc": 0.9240416982940557, "sec": 4.603924036026001}
+{"epoch": 7, "train_loss": 0.25113104787958057, "val_clean_macro_auroc": 0.9275738704236, "sec": 4.5904541015625}
+{"epoch": 8, "train_loss": 0.24565469089296266, "val_clean_macro_auroc": 0.9260159412817481, "sec": 4.5818541049957275}
+{"epoch": 9, "train_loss": 0.24368951067911102, "val_clean_macro_auroc": 0.9250940052845131, "sec": 4.5819666385650635}
+{"epoch": 10, "train_loss": 0.23860021058694172, "val_clean_macro_auroc": 0.9279576391745916, "sec": 4.579668283462524}
+{"epoch": 11, "train_loss": 0.2346900304274826, "val_clean_macro_auroc": 0.9273428977553653, "sec": 4.597071647644043}
+{"epoch": 12, "train_loss": 0.2318070944537326, "val_clean_macro_auroc": 0.9262365903766867, "sec": 4.59807014465332}
+{"epoch": 13, "train_loss": 0.2268938725459662, "val_clean_macro_auroc": 0.9297691065838201, "sec": 4.59475564956665}
+{"epoch": 14, "train_loss": 0.2239040246377698, "val_clean_macro_auroc": 0.924317298334544, "sec": 4.599724292755127}
+{"epoch": 15, "train_loss": 0.21975226904407538, "val_clean_macro_auroc": 0.931763819025422, "sec": 4.596252202987671}
+{"epoch": 16, "train_loss": 0.2171643325830896, "val_clean_macro_auroc": 0.9299876905368516, "sec": 4.585832595825195}
+{"epoch": 17, "train_loss": 0.21360294515621575, "val_clean_macro_auroc": 0.9269692076449036, "sec": 4.589208126068115}
+{"epoch": 18, "train_loss": 0.209411845772977, "val_clean_macro_auroc": 0.9291874951593024, "sec": 4.589044809341431}
+{"epoch": 19, "train_loss": 0.20664176929962771, "val_clean_macro_auroc": 0.9299835220375945, "sec": 4.591316223144531}
+{"epoch": 20, "train_loss": 0.20286173814285335, "val_clean_macro_auroc": 0.9296045423677354, "sec": 4.588683605194092}
+{"epoch": 21, "train_loss": 0.19868425192458378, "val_clean_macro_auroc": 0.929299933053062, "sec": 4.575131177902222}
+{"epoch": 22, "train_loss": 0.19556165153208227, "val_clean_macro_auroc": 0.9309140334599819, "sec": 4.574026823043823}
+{"epoch": 23, "train_loss": 0.1924632326469743, "val_clean_macro_auroc": 0.9290388589259841, "sec": 4.573712348937988}
+BEST 15 0.931763819025422 ffbda56b5101
+/opt/conda/lib/python3.10/site-packages/torch/nn/modules/conv.py:306: UserWarning: Applied workaround for CuDNN issue, install nvrtc.so (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:80.)
+  return F.conv1d(input, weight, bias, self.stride,
+{
+  "checkpoint_sha256": "ffbda56b51013c504d99cae4f7412196a886f4cf376c632b93b1cd5ca551742a",
+  "bundles": {
+    "val_clean": "a5b32a7c928de96e9ee63dc9eb84ed6080693e221d0e857876c3f28c4a026345",
+    "val_traindist": "fef84f9e09703dc1d9bdff5a9867b4a87d6e2556cd65b8eaecd8cda607d5f73c",
+    "val_stress": "15ff9d171c1c550981ff04833e916c470fba0cd6565c39d90286b2578976415d",
+    "test_clean": "d86cd5a4f857a2f872db099248088a1a09e9f41345f1437f4a04c43573d6007c",
+    "test_traindist": "425b3379e93489ba3d1f2d327970a2ec5d152069a59f18f0bd3e9661cced8e3d",
+    "test_stress": "9a5d77cb10ec085c8410b0036b0f7c39530b6757dd578033ddbce3569cc524d4"
+  }
+}
+DONE inception_clean 1

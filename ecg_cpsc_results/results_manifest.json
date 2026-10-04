@@ -1,0 +1,186 @@
+{
+  "runs": {
+    "cnn_diagonly_aug_s0": {
+      "checkpoint_sha256": "e6f5ce3ad18837e204470d130546626062d9a156dcbde2340f8c89973e9cfb70",
+      "bundles": {
+        "val_clean": "595a612f4c32755998fd272047cf55ab5b167f115d4419073508003490e12b27",
+        "val_traindist": "25bbcdee52098ee494375c56e9d5aaf233e79000fdc65ca2e12c2003a7ac2c75",
+        "val_stress": "d965d4771a62b7062be845b231a1ff57407f1efe3aa83d65dd5df4d7f8c40e4c",
+        "test_clean": "c6ee27c74cc0456361ef2fafec2a371dceddb038d15463d6c9c7d366efc74b87",
+        "test_traindist": "b3ab00c423b075a070b323f2134715042d93fc92aef0b2e48ec5c5d1feb062b3",
+        "test_stress": "0a8180d1e43ac537f544938a09b49683712d23471577988294c92c9cf0a8a5a4"
+      }
+    },
+    "cnn_diagonly_aug_s1": {
+      "checkpoint_sha256": "342d300107824301e8953c266cd40ddbb76d8a74d724b0e2037f4234bdc62774",
+      "bundles": {
+        "val_clean": "92ae8a7371009edbd4d318ec876fe3e54652b5e08a2b198b0f3af56ad8941fe2",
+        "val_traindist": "445410fa0a702f8e76457f7506dbf438deba1a703187d4beaa659ee628d38b55",
+        "val_stress": "77ff5e1f47c8085dbb83b1963ae536be99ef4f59ce4c039e21f889b9bbd762be",
+        "test_clean": "e70faf7a0cb71987bb2596da893bf4e0112d24fba35a83cfd47a8216ad081b05",
+        "test_traindist": "795270f1908fb7b949e0709c71d97d1624949bcc89ffcc47021a187fc5af3390",
+        "test_stress": "e05d5bd104edf90ebd8845b53328a61ad8fa52ebc7068a9447ed5a66e8059d8e"
+      }
+    },
+    "cnn_diagonly_aug_s2": {
+      "checkpoint_sha256": "5a961042038bfd0a2ee67f9a6ae5ddab821d589f62eadcf8f50287373c7047cc",
+      "bundles": {
+        "val_clean": "3cf8b9c40e75eb57fccb1dc8b0516b741ccd648e5abcf3acfd2c06d270535d18",
+        "val_traindist": "6014b0fbb07020532b6af0557d6c6d6f3a3d012300fc7405b3547a226f33d67b",
+        "val_stress": "d7b470ee6206c8fcd8a4862c93708704499e7dc81d2d71a6564bf95b02ce531c",
+        "test_clean": "62d8ccb58e43d890d42cd1f420c38a55434fc3fa1e8a47160180c8d9867e54e1",
+        "test_traindist": "ff0ea0160db8fe3bc55671605aba62f7fde9418b169cf01120b7916da0135c41",
+        "test_stress": "8df3cca8c361bb4a33dacf31fffca373178bb435cffd0ca24090570564c62e98"
+      }
+    },
+    "cnn_diagonly_clean_s0": {
+      "checkpoint_sha256": "448632cb42ae354751a791ff872518aaa27f0398d52651b4c336b02e9b6e6952",
+      "bundles": {
+        "val_clean": "2a1232f407214fa0e4b532b81059556fa5ae3b5124039774cbb4e81db8e6c1d8",
+        "val_traindist": "86d24085de6a9445eaf2b7ba9209f614c285ae0a2ce3db13c1ecf1b4792487db",
+        "val_stress": "2568d1ae6d6767f504afb1931263e36c3194edfecaa80224e7be007c77f20fce",
+        "test_clean": "f9dd2b32b80dd331455985614eb87fe5b383f60ca0ffd0bb08f191619a90a1f7",
+        "test_traindist": "ee2959f613b329560c9a19ee4b3cb33c56528a05b6d2a3f829858ae05718fc06",
+        "test_stress": "45fe1f0e40c7224bc4ad69c1ecd61130f999b9dfaa2e30ef20aedb9ac4dc16a1"
+      }
+    },
+    "cnn_diagonly_clean_s1": {
+      "checkpoint_sha256": "df467a50f43cabe00114ff02fd88c06f4fdcd62361cf72947630647c6d7db86f",
+      "bundles": {
+        "val_clean": "b3a14493a3c1216dfef1e905b362405ed8e3f239e1350e04b0801ce0136979a7",
+        "val_traindist": "bcbd7a12faf596cea5df8a31f00f355c52917076b06c38fafc355fdd42997642",
+        "val_stress": "f1bbd1fa4eb49a416cf88b679627a1b4170d6c1579fbd8495c02968fb8ef654a",
+        "test_clean": "e3be8ca70d999192d8696492318d59fb8ef50189bfcaef1767b3efcd000b6f17",
+        "test_traindist": "1567d16881b2c541c046cdb59f3008c39a013782ee28cf18b1de1ecfba5fecf5",
+        "test_stress": "eaaddfc7ddf3da257bc0e093b079c6260c864ed4b991fc81b464bcdaa71762c2"
+      }
+    },
+    "cnn_diagonly_clean_s2": {
+      "checkpoint_sha256": "80e8501e9c2a038d7c08ea48de70889a22b8b9fd514f93c2e1846cd966dee75f",
+      "bundles": {
+        "val_clean": "f5bcd09432aff3b3d6857bbc0dad5ab8a988684db05c153204a81a35115982e8",
+        "val_traindist": "f7ac7fb390a85e91c8f439b1d4538fb0fb96cb8dca9a257acb260629ddc0ca8a",
+        "val_stress": "5cbf46770f24a211d926b4e2f61b63c08912a697a4a31fbd6a02cc94a228f48a",
+        "test_clean": "8b8a414494546f589722f5ec861ea9cb58f9e0c46c026b025b05b511157ad0d7",
+        "test_traindist": "b0decb0807c798ac762813532c7de4df53c1852ecb102ef0d4d803988a0c79b8",
+        "test_stress": "82335796c2a70a9fccf9b9c77ac5f8e07c490315f7538939895b0994bac09dc2"
+      }
+    },
+    "cnn_full_leadwise_cleanfrac20_s0": {
+      "checkpoint_sha256": "01b7c36714aaab82e6f3d794836df05a22f95ff75baa28f75bba8faed176230d",
+      "bundles": {
+        "val_clean": "fcbd4e0d26dca3d1297dabb8e29e75bee45769f88fd781bfa6954c3b03e3427e",
+        "val_traindist_oracle": "303e4f737557983f41a0f4b7bd3a2f59b66116e6692425ad3785dbf66d336bb2",
+        "val_traindist_predicted": "9f699d15b17d8bec26828366a7ac6a2ff925ffc748be94c9f6c7573af233ef0e",
+        "val_stress": "3711eb3ec167b9c3137fa6732ac0da3d0b6b433d51e52d13c733a686a9d3bbb6",
+        "test_clean": "70f971b0b4f9e1cd49581145eac8d9175bae993c11bd4f855eace776a23ada44",
+        "test_traindist_oracle": "b2d73e14a573d3e2b28f737ad3557cc4f269b63e4de1469c65208ef2ebc31ce2",
+        "test_traindist_predicted": "4368d83cc01877b2e15e1cc80bd8e370c2e9583008785fe9640ca800d08f7ddd",
+        "test_stress": "275c970e883f15e9d07cf23a1dd3a0325e904b208a85ef7bb1eec3377acf5b4a"
+      },
+      "tau_mask": 0.5550475716590881,
+      "tau_mask_rule": "max Youden J on validation train-distribution corruption"
+    },
+    "cnn_full_leadwise_cleanfrac20_s1": {
+      "checkpoint_sha256": "24c38a04d8a79450c13e19d7940c085f8010c024bc3706d398a42b163c102539",
+      "bundles": {
+        "val_clean": "d5d89abe7208694c38175aea3d71fa50aca8b9f552ea35682975168179424c65",
+        "val_traindist_oracle": "ceed0604c85bc08b6c54cdba958b502ddf9b2b20042e1bd62cb5a1c26c48b2e8",
+        "val_traindist_predicted": "5526425f9bf498fb67cb744b2d7352b597c9155f2bced8a7677c615231dd90db",
+        "val_stress": "2bc4991cc739aeceb078b8198e1d7d34f094a0f990cf4d12bcf8601fea533794",
+        "test_clean": "0c873b6c5277a522c17b42352d72c24adac0a4a3b576471d7d91358b83672d2d",
+        "test_traindist_oracle": "0fa125072d2a4019e1947d5209072490b59ec01d307cfcd1ed0f7a2559a8ad50",
+        "test_traindist_predicted": "73baf70df5c839c5fee435de52b06a3f49e1bd5941a8e660da6589d629e000c0",
+        "test_stress": "531b12db749c82cb7265ec0573c2e6add218de4852f40b351639306bf63a5496"
+      },
+      "tau_mask": 0.5547806024551392,
+      "tau_mask_rule": "max Youden J on validation train-distribution corruption"
+    },
+    "cnn_full_leadwise_cleanfrac20_s2": {
+      "checkpoint_sha256": "056719062e992cdc5ad16ea8ee5e57d290aa96baf488524588f39d5c2b909431",
+      "bundles": {
+        "val_clean": "f98805f64ec594d1dcd62b5c0cac8578330e018041fb051c1b6c9ca181811092",
+        "val_traindist_oracle": "7f05f70a08c5be20eae2be0811c5d83f0b3a0e53c89f0e1c7427751b5e21b62d",
+        "val_traindist_predicted": "223e6fe59ae30414ea51e2ee25a1fa92555832cfbff7870260c236d21af424fb",
+        "val_stress": "07f10e827ea20b73e6567e9c9b7e1c257d5a147d1891ae7c26bf511f9989550b",
+        "test_clean": "b1328333ada2ac7fa393da3fbac7b9d6256b1866b6e7ccb6ec584352176a07e4",
+        "test_traindist_oracle": "1d468cefc6e3d415b3110df92f71c44ee582ed99bd5aadacf6703ce1ee6f92c9",
+        "test_traindist_predicted": "a00a575b675e6201be219b1445c5fba63b58d9803d875e0f89601c76eddd035d",
+        "test_stress": "a3f724158ba214ffedad3a4550c802532985e313fb05b51588cfc8fc7a5746dd"
+      },
+      "tau_mask": 0.6076928377151489,
+      "tau_mask_rule": "max Youden J on validation train-distribution corruption"
+    },
+    "cnn_full_s0": {
+      "checkpoint_sha256": "bdfeedd2631a197d25ecd54824cecb41ce137bc9169344f537b14890c5214280",
+      "bundles": {
+        "val_clean": "c298b92bcd78a1586acbe9189e4d8ba69e0ecc2de5f242d105f54bf96fc6ef87",
+        "val_traindist_oracle": "8038128a80250d4cf30866df7f10f9657447e1975e93a38e91685b86c92a1ba1",
+        "val_traindist_predicted": "9f8ff4d9e230e1d599af691dd8e3ff81d71a42b3afb3d701e4d426210e12be5c",
+        "val_stress": "eb492064f1be297dffea47a8b6b4b1c9ee2982002c8df907a518c5c8999520d4",
+        "test_clean": "a7eac2ef0b6e6c4bc2fe8ac27523ccb61df655dd1eb0f023cf4d7c6e42963a97",
+        "test_traindist_oracle": "3e7b29b12f399d591975a6a7b7002b386975ffd4b60ff4c8ebb8c697ec8047c5",
+        "test_traindist_predicted": "096746b42f6fa48c99f86a3dd9a71a88c122f716a7d4661a5099b289884695e7",
+        "test_stress": "cd48b56ff2b48faa6ded227a718a97a533acf720ea79bbb810ed47e4e0ca9041"
+      },
+      "tau_mask": 0.46200716495513916,
+      "tau_mask_rule": "max Youden J on validation train-distribution corruption"
+    },
+    "cnn_full_s1": {
+      "checkpoint_sha256": "164f9384d3a9c3bc1231519534856b99b65c1ec8ec658d03ac5e06f3264acd2b",
+      "bundles": {
+        "val_clean": "7e633cb0f5596eb5caccf2517640629715017b0997f9eb54b2942de3919a7dff",
+        "val_traindist_oracle": "5b05f709de1c04fce3783f8dda88a2b0fdb73f4f021647a315f7e3713c018d80",
+        "val_traindist_predicted": "2b93c2ab02dbd90a271d9ba067cf59bb56ffcde590cfa24f8b9e9a9fb05fa841",
+        "val_stress": "061e6026f7e070847608928d50ead82441a20b91f2157c1c687a4bddbaf7901b",
+        "test_clean": "48b45962b9b552e3895a8e9e6249aa15f6b0f1c1bab4b24a5cd750e490ea8df2",
+        "test_traindist_oracle": "b036dcaa02f3aee19d46909ee530711d1363abdf73e252ccb2498a9e25de1b72",
+        "test_traindist_predicted": "be34f1420af859b2a92abfe4866fcaf728e3ca222973d2f7d8d1d709b024b97d",
+        "test_stress": "44f69cb0688a9f40e47abd31573316f2c6571f0296214f242cdcca081d72f4f6"
+      },
+      "tau_mask": 0.44692176580429077,
+      "tau_mask_rule": "max Youden J on validation train-distribution corruption"
+    },
+    "cnn_full_s2": {
+      "checkpoint_sha256": "6b83ecc7b7031db1b26921ef799deeaa9aa47a14dbf16e37c70022fecd54ca62",
+      "bundles": {
+        "val_clean": "5ec95a58bae5a6c3807d4cf80da1fbf6b2ebfca3ecebbd3519ff081413b2a66b",
+        "val_traindist_oracle": "9b3f3cabc12be29aa4caf9d052eac228e74e481cd222a5622548629dcfef1627",
+        "val_traindist_predicted": "4f0769b480a34896dc8abada7511e93db4af9f74ef76f1c929db3da28f0cc341",
+        "val_stress": "a6c9fafd6c4b0260285fc3a4401268d96af75a5127d9e71b87f9e7b477c61401",
+        "test_clean": "7abd4c8ffb926eaddba6932f9d0630443b0ce0446ab4ca97ea63d4b4ddf916d3",
+        "test_traindist_oracle": "0aa8702c211e8f7ee309461393143688d922605a698ee86f6263156bf9e2eff4",
+        "test_traindist_predicted": "5a8fc5100cc4c5bf652f87f02970fc4116d91ce9e8917a98cb2a16c1ff28dad9",
+        "test_stress": "1f5367b76bf1989b4fb834bffe05ae0c9d0118573342667072a72ca81e82bfea"
+      },
+      "tau_mask": 0.46512162685394287,
+      "tau_mask_rule": "max Youden J on validation train-distribution corruption"
+    }
+  },
+  "bootstrap": 1000,
+  "checks": [
+    "val/test patient-disjoint for every run",
+    "identical eval inputs asserted for primary contrasts"
+  ],
+  "outputs": {
+    "PRIMARY_endpoints_and_decision.csv": "38bef85f0a8ed0973d1be92b9780682f988c14d872fd4991025070a5f38a5597",
+    "T_clean_contrasts.csv": "cd1822b5fc23260502547c2228231afd74b50aa440aab9ece552389d437a8536",
+    "T_clean_test.csv": "7d5f5a4498e2613365ec1da6ee47a8c8ac2d8985ae86d1e27844cb2169451fb6",
+    "T_gate_aurc_raw.csv": "3d0696b7d7d52351f6baabdb1c6c9b7079b0b9fbeafe220a186cf48fb2c48ac9",
+    "T_gate_aurc_summary.csv": "9c43ad24d931bbebdd7fbb37139de2231decca01969568bd153c6fd4f359ed20",
+    "T_gate_fixed_coverage.csv": "879d4b28b25d58bd1f5b31edd6927b15e08a20b2dcf3be6b7224c61f97a6c1ab",
+    "T_multireal_contrasts.csv": "77e3b250e2a776b0be6a36d954ea5ec00e483ef02f126405adbd5cae6d7e3706",
+    "T_multireal_summary.csv": "e59dade07a948b51d4939abea12090766686d6ba5faf9debb23702fddfec2b78",
+    "T_perclass_clean.csv": "b7c116be6039c5a8a3c55b49b2f0e226d799961ca3001e48ee5fb3ff00b3d6da",
+    "T_perclass_corrupted.csv": "42af4b918d63993eaafa8948b5020f0182a406e76dbae442e203a05fbcab3493",
+    "T_perlead_raw.csv": "1edd92d6d3e59164325f090c0f7612973109918ffaa82dd98ad3cdb31e3b476f",
+    "T_perlead_summary.csv": "6c16178d21fe61d2b10a6a6ca052617f0f6986ebbb87c25c094db97eb9d8dcea",
+    "T_repair_raw.csv": "6b91a365afda6921693408cc5d2745c3c44e3daaea18509073add898e67770c1",
+    "T_repair_summary.csv": "623af8d9987678b94a2ecf5642329402598312d8f607f782abe1035510a205fc",
+    "T_stress_contrasts.csv": "4eaedeab6f03d97026a1ff7a7726701a31dea8adaa7a9cc66439bdac72c7f8d7",
+    "T_stress_raw.csv": "c78aefc315ca916dbc24c6fc0d1c0ae61785506554450eb5993da104166272f3",
+    "T_stress_summary.csv": "3476483ad29064b3cc1b56081d3009993741b55be210771991413a084826cba4",
+    "results_macros.tex": "07a9834cf479ad0d16be820ed999609edeaf0af1ece754c89e129118961fc9d3",
+    "table_clean.tex": "264a56f77e180f47f68b7aecc426e13538dd051b431fddba385ba529b5935dfb"
+  }
+}

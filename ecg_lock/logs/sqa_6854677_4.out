@@ -1,0 +1,35 @@
+/opt/conda/lib/python3.10/site-packages/torch/nn/modules/transformer.py:282: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/opt/conda/lib/python3.10/site-packages/torch/nn/modules/conv.py:306: UserWarning: Applied workaround for CuDNN issue, install nvrtc.so (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:80.)
+  return F.conv1d(input, weight, bias, self.stride,
+{'epoch': 0, 'val_auroc': 0.7558965587735863, 'loss': 0.44394177198410034, 'sec': 7.641520738601685}
+{'epoch': 1, 'val_auroc': 0.8973510422157217, 'loss': 0.2713087201118469, 'sec': 1.9074015617370605}
+{'epoch': 2, 'val_auroc': 0.9433795962881754, 'loss': 0.219721257686615, 'sec': 2.017548084259033}
+{'epoch': 3, 'val_auroc': 0.9502757573289791, 'loss': 0.18679654598236084, 'sec': 2.097999095916748}
+{'epoch': 4, 'val_auroc': 0.9522543130562716, 'loss': 0.15810547769069672, 'sec': 1.9590857028961182}
+{'epoch': 5, 'val_auroc': 0.964796185385392, 'loss': 0.14676924049854279, 'sec': 1.9427762031555176}
+{'epoch': 6, 'val_auroc': 0.9719670744036445, 'loss': 0.14376121759414673, 'sec': 1.980327844619751}
+{'epoch': 7, 'val_auroc': 0.9719790822178203, 'loss': 0.12600888311862946, 'sec': 2.045973062515259}
+{'epoch': 8, 'val_auroc': 0.9755418585992853, 'loss': 0.12526416778564453, 'sec': 1.9701879024505615}
+{'epoch': 9, 'val_auroc': 0.9771165579448541, 'loss': 0.12824532389640808, 'sec': 2.053414821624756}
+{'epoch': 10, 'val_auroc': 0.9802338173931621, 'loss': 0.11005973815917969, 'sec': 2.053840398788452}
+{'epoch': 11, 'val_auroc': 0.9783442893762443, 'loss': 0.10989724099636078, 'sec': 2.0207884311676025}
+{'epoch': 12, 'val_auroc': 0.9793163663356613, 'loss': 0.0849442332983017, 'sec': 1.859473705291748}
+{'epoch': 13, 'val_auroc': 0.984783188219993, 'loss': 0.08767956495285034, 'sec': 2.037473201751709}
+{'epoch': 14, 'val_auroc': 0.9841439400700882, 'loss': 0.09167542308568954, 'sec': 1.9633798599243164}
+{'epoch': 15, 'val_auroc': 0.9867935820295022, 'loss': 0.1045408695936203, 'sec': 1.9200446605682373}
+{'epoch': 16, 'val_auroc': 0.9871967125369286, 'loss': 0.09618908166885376, 'sec': 1.992593765258789}
+{'epoch': 17, 'val_auroc': 0.9879634674570398, 'loss': 0.09675958752632141, 'sec': 1.932800531387329}
+{'epoch': 18, 'val_auroc': 0.9887259906844381, 'loss': 0.06717905402183533, 'sec': 1.9367578029632568}
+{'epoch': 19, 'val_auroc': 0.9894271852557694, 'loss': 0.07629768550395966, 'sec': 2.0511224269866943}
+{'epoch': 20, 'val_auroc': 0.9891291829684006, 'loss': 0.07566875219345093, 'sec': 1.9852771759033203}
+{'epoch': 21, 'val_auroc': 0.9889856683533154, 'loss': 0.05566033720970154, 'sec': 1.8558931350708008}
+{'epoch': 22, 'val_auroc': 0.9908846636243679, 'loss': 0.06093692034482956, 'sec': 1.972670555114746}
+{'epoch': 23, 'val_auroc': 0.9906348702012431, 'loss': 0.06637540459632874, 'sec': 2.0051162242889404}
+{'epoch': 24, 'val_auroc': 0.9915815338381825, 'loss': 0.06694309413433075, 'sec': 1.9943861961364746}
+{'epoch': 25, 'val_auroc': 0.9918993200611903, 'loss': 0.06437221169471741, 'sec': 2.024630308151245}
+{'epoch': 26, 'val_auroc': 0.9924606988875266, 'loss': 0.07648863643407822, 'sec': 2.002464771270752}
+{'epoch': 27, 'val_auroc': 0.9922011911041232, 'loss': 0.04885165020823479, 'sec': 1.9122722148895264}
+{'epoch': 28, 'val_auroc': 0.992206704659957, 'loss': 0.07202865928411484, 'sec': 1.9442734718322754}
+{'epoch': 29, 'val_auroc': 0.9924547683400752, 'loss': 0.06910648196935654, 'sec': 1.8906314373016357}
+DONE lpx_s1 0.9924606988875266

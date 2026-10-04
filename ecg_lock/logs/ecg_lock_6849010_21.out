@@ -1,0 +1,18 @@
+/opt/conda/lib/python3.10/site-packages/torch/nn/modules/conv.py:306: UserWarning: Applied workaround for CuDNN issue, install nvrtc.so (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:80.)
+  return F.conv1d(input, weight, bias, self.stride,
+{
+  "checkpoint_sha256": "43c11533d6b68cfe83debac577042658883e305037d77bb1fb363d44ca52ae7c",
+  "bundles": {
+    "val_clean": "3979c9ef682e5ea41659ce0110b34fd66c8261fc408d5c0981c017fc316106bb",
+    "val_traindist_oracle": "5263e16fd87551bda2d06899a771f1af9c20b9ab75d15aeb9157c8e6b105717a",
+    "val_traindist_predicted": "4becdafd390410e046e6dd3dcf9491ebefebdcebabd3701eaba25288cef1f2e5",
+    "val_stress": "658d40b8ce0b4cbe7cf652d4c42d369310bd6ebb5c7028b8419aede7d6ff9ac1",
+    "test_clean": "901c8034c4e2d1dc437291b63c1b9364e19bbe5b1c5a9f941af74d00ae85a30c",
+    "test_traindist_oracle": "7e72c85882bdde5d08e63b6b600a2107ccde1f935c19f222d30fdd16a51b5810",
+    "test_traindist_predicted": "3e291e274438392699f95cdf2392f32bc8afc39510adf65cdcc3aae602fdc6c6",
+    "test_stress": "7728842a6b0def74ca43827fab4bb33ad5dd060631959f132ce1aa5a0c2142a2"
+  },
+  "tau_mask": 0.5774700045585632,
+  "tau_mask_rule": "max Youden J on validation train-distribution corruption"
+}
+DONE cnn_full_leadwise_cleanfrac20 0

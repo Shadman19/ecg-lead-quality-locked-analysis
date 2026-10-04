@@ -1,0 +1,72 @@
+selection {'lp': 0.9822846774077426, 'lpx': 0.9931977727561349} PRIMARY = lpx
+fold-9 SQI AUROCs {'bsqi_bad': 0.564057562525158, 'ksqi_bad': 0.5441483736187379, 'ssqi_bad': 0.5296070534651502, 'psqi_bad': 0.483765874987424, 'bassqi_bad': 0.5362847666384246, 'flat_bad': 0.21603120148174149, 'tsqi_bad': 0.5881734757523552} best tsqi_bad
+
+== ptbxl
+            scorer  auroc  auprc  sens_at_90spec  primary_minus_this  ci_lo  ci_hi  n_pos     n
+       SUP_SQI_GBM  0.804  0.243           0.419              -0.102 -0.126 -0.078   2083 25896
+    SUP_SQI_LOGREG  0.797  0.240           0.411              -0.095 -0.119 -0.071   2083 25896
+    PILOT_detector  0.796  0.270           0.432              -0.095 -0.117 -0.073   2083 25896
+             LF_lp  0.715  0.212           0.337              -0.014 -0.030  0.004   2083 25896
+            LF_lpx  0.701  0.173           0.288               0.000    NaN    NaN   2083 25896
+       SUP_deep_lp  0.696  0.190           0.304               0.006 -0.022  0.034   2083 25896
+COMBO_primary+tSQI  0.680  0.158           0.261               0.021  0.004  0.038   2083 25896
+             LF_ae  0.641  0.121           0.185               0.060  0.030  0.092   2083 25896
+      SQI_ksqi_bad  0.587  0.106           0.162               0.115  0.084  0.149   2083 25896
+      SQI_tsqi_bad  0.577  0.112           0.177               0.125  0.093  0.157   2083 25896
+      SQI_ssqi_bad  0.567  0.096           0.136               0.135  0.106  0.167   2083 25896
+      SQI_bsqi_bad  0.539  0.093           0.147               0.162  0.125  0.197   2083 25896
+    SQI_bassqi_bad  0.532  0.091           0.131               0.170  0.132  0.207   2083 25896
+      SQI_psqi_bad  0.509  0.081           0.100               0.193  0.157  0.230   2083 25896
+      SQI_flat_bad  0.202  0.047           0.005               0.499  0.460  0.536   2083 25896
+    subset       scorer  auroc  n_pos
+    static       LF_lpx  0.701   1980
+    static  SUP_deep_lp  0.698   1980
+    static  SUP_SQI_GBM  0.813   1980
+    static SQI_tsqi_bad  0.575   1980
+     burst       LF_lpx  0.754    138
+     burst  SUP_deep_lp  0.668    138
+     burst  SUP_SQI_GBM  0.688    138
+     burst SQI_tsqi_bad  0.611    138
+electrodes       LF_lpx  0.298      2
+electrodes  SUP_deep_lp  0.138      2
+electrodes  SUP_SQI_GBM  0.434      2
+electrodes SQI_tsqi_bad  0.106      2
+    lead_I       LF_lpx  0.732    291
+   lead_II       LF_lpx  0.664    279
+  lead_III       LF_lpx  0.630    282
+  lead_AVR       LF_lpx  0.695    279
+  lead_AVL       LF_lpx  0.693    197
+  lead_AVF       LF_lpx  0.696    180
+   lead_V1       LF_lpx  0.712    134
+   lead_V2       LF_lpx  0.712    105
+   lead_V3       LF_lpx  0.666     85
+   lead_V4       LF_lpx  0.721     81
+   lead_V5       LF_lpx  0.678     82
+   lead_V6       LF_lpx  0.700     88
+
+== cinc
+                  scorer  auroc  auprc  sens_at_90spec  primary_minus_this  ci_lo  ci_hi  n_pos   n
+SUP_SQI_GBM_CinC10foldCV  0.961  0.904           0.889              -0.555 -0.595 -0.515    225 998
+            SQI_tsqi_bad  0.915  0.663           0.049              -0.510 -0.551 -0.466    225 998
+                   LF_ae  0.882  0.825           0.813              -0.476 -0.528 -0.423    225 998
+          PILOT_detector  0.864  0.761           0.627              -0.459 -0.503 -0.409    225 998
+          SQI_bassqi_bad  0.859  0.765           0.702              -0.454 -0.506 -0.399    225 998
+                   LF_lp  0.822  0.608           0.671              -0.417 -0.462 -0.369    225 998
+ SUP_deep_lp_PTBXLlabels  0.821  0.668           0.573              -0.416 -0.470 -0.359    225 998
+            SQI_psqi_bad  0.810  0.734           0.613              -0.405 -0.463 -0.346    225 998
+            SQI_flat_bad  0.803  0.780           0.729              -0.398 -0.463 -0.334    225 998
+            SQI_bsqi_bad  0.789  0.451           0.000              -0.384 -0.431 -0.337    225 998
+            SQI_ksqi_bad  0.751  0.656           0.520              -0.346 -0.401 -0.292    225 998
+      COMBO_primary+tSQI  0.733  0.399           0.236              -0.328 -0.355 -0.303    225 998
+            SQI_ssqi_bad  0.677  0.567           0.396              -0.271 -0.331 -0.211    225 998
+                  LF_lpx  0.405  0.206           0.067               0.000    NaN    NaN    225 998
+dropped  ptbxl_perlead_auroc  cinc_record_auroc  synth_val
+   none                0.687              0.689      0.993
+  gauss                0.687              0.768      0.991
+  nstdb                0.682              0.497      0.986
+   flat                0.697              0.542      0.962
+   clip                0.696              0.704      0.994
+     hf                0.601              0.331      0.984
+ spikes                0.703              0.741      0.992
+  burst                0.698              0.675      0.992
+params {'lp': 247105, 'lpx': 397825, 'ae': 23409, 'sup': 247105}

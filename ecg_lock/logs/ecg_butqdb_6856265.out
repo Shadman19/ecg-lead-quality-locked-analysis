@@ -1,0 +1,40 @@
+100001 {'sig_len': 87087000, 'n_windows': 8708, 'unannotated': 0, 'pure': {1: 5659, 2: 2471, 3: 20}, 'majority': {1: 6008, 2: 2678, 3: 22}, 'mixed_excluded': 0}
+100002 {'sig_len': 86762000, 'n_windows': 8676, 'unannotated': 8436, 'pure': {1: 93, 2: 40, 3: 0}, 'majority': {1: 164, 2: 76, 3: 0}, 'mixed_excluded': 0}
+103001 {'sig_len': 87125000, 'n_windows': 8712, 'unannotated': 8472, 'pure': {1: 129, 2: 26, 3: 0}, 'majority': {1: 175, 2: 65, 3: 0}, 'mixed_excluded': 0}
+103002 {'sig_len': 86482000, 'n_windows': 8648, 'unannotated': 8408, 'pure': {1: 188, 2: 3, 3: 0}, 'majority': {1: 220, 2: 20, 3: 0}, 'mixed_excluded': 0}
+103003 {'sig_len': 86420000, 'n_windows': 8642, 'unannotated': 8402, 'pure': {1: 163, 2: 6, 3: 0}, 'majority': {1: 206, 2: 34, 3: 0}, 'mixed_excluded': 0}
+104001 {'sig_len': 87178000, 'n_windows': 8717, 'unannotated': 8477, 'pure': {1: 133, 2: 62, 3: 0}, 'majority': {1: 159, 2: 81, 3: 0}, 'mixed_excluded': 0}
+105001 {'sig_len': 139147000, 'n_windows': 13914, 'unannotated': 0, 'pure': {1: 5243, 2: 2877, 3: 4733}, 'majority': {1: 5861, 2: 3318, 3: 4734}, 'mixed_excluded': 1}
+111001 {'sig_len': 90645000, 'n_windows': 9064, 'unannotated': 0, 'pure': {1: 3107, 2: 4190, 3: 244}, 'majority': {1: 3871, 2: 4801, 3: 381}, 'mixed_excluded': 11}
+113001 {'sig_len': 91148000, 'n_windows': 9114, 'unannotated': 8753, 'pure': {1: 186, 2: 60, 3: 2}, 'majority': {1: 237, 2: 113, 3: 10}, 'mixed_excluded': 1}
+114001 {'sig_len': 91651000, 'n_windows': 9165, 'unannotated': 8791, 'pure': {1: 225, 2: 49, 3: 82}, 'majority': {1: 233, 2: 55, 3: 84}, 'mixed_excluded': 2}
+115001 {'sig_len': 87934000, 'n_windows': 8793, 'unannotated': 8553, 'pure': {1: 129, 2: 33, 3: 0}, 'majority': {1: 162, 2: 78, 3: 0}, 'mixed_excluded': 0}
+118001 {'sig_len': 89091000, 'n_windows': 8909, 'unannotated': 8669, 'pure': {1: 125, 2: 50, 3: 0}, 'majority': {1: 149, 2: 91, 3: 0}, 'mixed_excluded': 0}
+121001 {'sig_len': 91233000, 'n_windows': 9123, 'unannotated': 8883, 'pure': {1: 149, 2: 6, 3: 0}, 'majority': {1: 204, 2: 36, 3: 0}, 'mixed_excluded': 0}
+122001 {'sig_len': 122798000, 'n_windows': 12279, 'unannotated': 12039, 'pure': {1: 75, 2: 32, 3: 120}, 'majority': {1: 81, 2: 39, 3: 120}, 'mixed_excluded': 0}
+123001 {'sig_len': 133448000, 'n_windows': 13344, 'unannotated': 13104, 'pure': {1: 184, 2: 5, 3: 0}, 'majority': {1: 219, 2: 20, 3: 0}, 'mixed_excluded': 1}
+124001 {'sig_len': 86489000, 'n_windows': 8648, 'unannotated': 8166, 'pure': {1: 52, 2: 142, 3: 23}, 'majority': {1: 132, 2: 281, 3: 62}, 'mixed_excluded': 7}
+125001 {'sig_len': 86428000, 'n_windows': 8642, 'unannotated': 8402, 'pure': {1: 225, 2: 0, 3: 0}, 'majority': {1: 236, 2: 3, 3: 0}, 'mixed_excluded': 1}
+126001 {'sig_len': 92361000, 'n_windows': 9236, 'unannotated': 8996, 'pure': {1: 216, 2: 0, 3: 0}, 'majority': {1: 240, 2: 0, 3: 0}, 'mixed_excluded': 0}
+saved /home/spath004/data/butqdb_windows_100hz.npz (35759, 1000) pure {0: 4202, 1: 16281, 2: 10052, 3: 5224} sha 13590577586c
+saved (35759, 7) nan frac 0.0
+/opt/conda/lib/python3.10/site-packages/torch/nn/modules/conv.py:306: UserWarning: Applied workaround for CuDNN issue, install nvrtc.so (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:80.)
+  return F.conv1d(input, weight, bias, self.stride,
+DONE detector seed 0 (35759, 12) mean intact 0.5159487128257751
+DONE detector seed 1 (35759, 12) mean intact 0.5502012968063354
+DONE detector seed 2 (35759, 12) mean intact 0.5418827533721924
+DONE sqa sup 0 (35759, 12)
+DONE sqa sup 1 (35759, 12)
+DONE sqa sup 2 (35759, 12)
+DONE sqa lp 0 (35759, 12)
+DONE sqa lp 1 (35759, 12)
+DONE sqa lp 2 (35759, 12)
+/opt/conda/lib/python3.10/site-packages/torch/nn/modules/transformer.py:282: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+DONE sqa lpx 0 (35759, 12)
+DONE sqa lpx 1 (35759, 12)
+DONE sqa lpx 2 (35759, 12)
+DONE sqa ae 0 (35759, 12)
+DONE sqa ae 1 (35759, 12)
+DONE sqa ae 2 (35759, 12)
+DONE_BUTQDB

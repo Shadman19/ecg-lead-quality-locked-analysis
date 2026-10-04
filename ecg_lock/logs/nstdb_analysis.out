@@ -1,0 +1,32 @@
+configs: {'cnn_diag_lead': [0, 1, 2], 'cnn_diag_rec': [0, 1, 2], 'cnn_diagonly_aug': [0, 1, 2], 'cnn_diagonly_clean': [0, 1, 2], 'cnn_full_cleanfrac20': [0, 1, 2], 'cnn_full_leadwise_cleanfrac20': [0, 1, 2], 'cnn_full_leadwise': [0, 1, 2], 'cnn_full': [0, 1, 2], 'inception_aug': [0, 1, 2], 'inception_clean': [0, 1, 2], 'resnet_aug': [0, 1, 2], 'resnet_clean': [0, 1, 2], 'tx_full': [0, 1, 2]}
+{'A': 'cnn_full_leadwise_cleanfrac20', 'B': 'cnn_diagonly_aug', 'family': 'em+ma', 'per_seed': '[-0.0037, -0.0012, -0.0025]', 'delta': -0.002457796743542653, 'ci95_lo': -0.004688725701373539, 'ci95_hi': -0.00013833831536262732, 'status': 'SECONDARY'}
+{'A': 'cnn_full_leadwise_cleanfrac20', 'B': 'cnn_diagonly_aug', 'family': 'bw', 'per_seed': '[-0.0044, -0.0013, -0.0032]', 'delta': -0.0029841601222323736, 'ci95_lo': -0.005251562587054415, 'ci95_hi': -0.0007376750756448172, 'status': 'SECONDARY'}
+{'A': 'cnn_full_leadwise_cleanfrac20', 'B': 'cnn_diagonly_aug', 'family': 'em_ma_0dB_6leads', 'per_seed': '[-0.0031, -0.002, -0.0014]', 'delta': -0.0021930294230705174, 'ci95_lo': -0.0045363824005423044, 'ci95_hi': 0.00035946540764915575, 'status': 'SECONDARY'}
+{'A': 'cnn_full', 'B': 'cnn_diagonly_aug', 'family': 'em+ma', 'per_seed': '[-0.0026, -0.003, -0.0028]', 'delta': -0.0027788505996561037, 'ci95_lo': -0.005084733218225919, 'ci95_hi': -0.0003723363964535138, 'status': 'SECONDARY'}
+{'A': 'cnn_full', 'B': 'cnn_diagonly_aug', 'family': 'bw', 'per_seed': '[-0.0034, -0.003, -0.0028]', 'delta': -0.0030511980163004937, 'ci95_lo': -0.005382571849837309, 'ci95_hi': -0.0006655709436114637, 'status': 'SECONDARY'}
+{'A': 'cnn_full', 'B': 'cnn_diagonly_aug', 'family': 'em_ma_0dB_6leads', 'per_seed': '[-0.0019, -0.0048, -0.0039]', 'delta': -0.003502174665984866, 'ci95_lo': -0.006126491844465981, 'ci95_hi': -0.0007549475687657356, 'status': 'SECONDARY'}
+{'A': 'cnn_diagonly_aug', 'B': 'cnn_diagonly_clean', 'family': 'em+ma', 'per_seed': '[0.0003, 0.0037, 0.004]', 'delta': 0.0026403905490860057, 'ci95_lo': 0.0005063048777499478, 'ci95_hi': 0.004707411031642498, 'status': 'SECONDARY'}
+{'A': 'cnn_diagonly_aug', 'B': 'cnn_diagonly_clean', 'family': 'bw', 'per_seed': '[0.0016, 0.0041, 0.004]', 'delta': 0.0032444049901673897, 'ci95_lo': 0.0011654779168497073, 'ci95_hi': 0.005309102321977597, 'status': 'SECONDARY'}
+{'A': 'cnn_diagonly_aug', 'B': 'cnn_diagonly_clean', 'family': 'em_ma_0dB_6leads', 'per_seed': '[-0.0015, 0.0028, 0.0053]', 'delta': 0.0021616859664348453, 'ci95_lo': -0.00028383473868795234, 'ci95_hi': 0.004482886677991242, 'status': 'SECONDARY'}
+{'A': 'resnet_aug', 'B': 'resnet_clean', 'family': 'em+ma', 'per_seed': '[0.0027, 0.0057, 0.0039]', 'delta': 0.004088041477922667, 'ci95_lo': 0.001784598342868588, 'ci95_hi': 0.006431270166710682, 'status': 'SECONDARY'}
+{'A': 'resnet_aug', 'B': 'resnet_clean', 'family': 'bw', 'per_seed': '[0.0025, 0.0059, 0.0042]', 'delta': 0.004192030451063208, 'ci95_lo': 0.0019372927152889134, 'ci95_hi': 0.006649691384718713, 'status': 'SECONDARY'}
+{'A': 'resnet_aug', 'B': 'resnet_clean', 'family': 'em_ma_0dB_6leads', 'per_seed': '[0.0106, 0.0058, 0.0068]', 'delta': 0.007747301681794105, 'ci95_lo': 0.004597519938878657, 'ci95_hi': 0.010853259678587145, 'status': 'SECONDARY'}
+{'A': 'inception_aug', 'B': 'inception_clean', 'family': 'em+ma', 'per_seed': '[0.0058, 0.0041, 0.0053]', 'delta': 0.005042940606248016, 'ci95_lo': 0.002996224759249411, 'ci95_hi': 0.007160648304995267, 'status': 'SECONDARY'}
+{'A': 'inception_aug', 'B': 'inception_clean', 'family': 'bw', 'per_seed': '[0.0048, 0.003, 0.0041]', 'delta': 0.003988738507273515, 'ci95_lo': 0.0019351348269004433, 'ci95_hi': 0.006106354621328721, 'status': 'SECONDARY'}
+{'A': 'inception_aug', 'B': 'inception_clean', 'family': 'em_ma_0dB_6leads', 'per_seed': '[0.0115, 0.0101, 0.0166]', 'delta': 0.012727483155412814, 'ci95_lo': 0.010066052411983679, 'ci95_hi': 0.015494830971375644, 'status': 'SECONDARY'}
+{'A': 'resnet_aug', 'B': 'cnn_diagonly_aug', 'family': 'em+ma', 'per_seed': '[-0.0004, 0.0005, 0.0007]', 'delta': 0.00023137064891542788, 'ci95_lo': -0.0024400586655052643, 'ci95_hi': 0.00284195933268533, 'status': 'SECONDARY'}
+{'A': 'resnet_aug', 'B': 'cnn_diagonly_aug', 'family': 'bw', 'per_seed': '[-0.001, 0.0005, 0.0002]', 'delta': -8.451962927216417e-05, 'ci95_lo': -0.0028070177269571843, 'ci95_hi': 0.0025193507927640402, 'status': 'SECONDARY'}
+{'A': 'resnet_aug', 'B': 'cnn_diagonly_aug', 'family': 'em_ma_0dB_6leads', 'per_seed': '[-0.003, -0.0048, -0.001]', 'delta': -0.0029268490523626975, 'ci95_lo': -0.0060590801427727005, 'ci95_hi': 0.00022647472324224273, 'status': 'SECONDARY'}
+{'A': 'cnn_full_leadwise_cleanfrac20:learned_head', 'B': 'logreg_val_rule', 'family': 'detect_em+ma', 'per_seed': '[0.3658, 0.3545, 0.3538]', 'delta': 0.35805048993516464, 'ci95_lo': 0.35327838387719573, 'ci95_hi': 0.36263779242765587, 'status': 'SECONDARY'}
+snr                                                     0     12      6
+config                        detector                                 
+cnn_diag_lead                 learned_head          0.500  0.501  0.501
+cnn_full                      learned_head          0.472  0.499  0.494
+cnn_full_cleanfrac20          learned_head          0.486  0.499  0.497
+cnn_full_leadwise             learned_head          0.920  0.774  0.860
+cnn_full_leadwise_cleanfrac20 learned_head          0.915  0.775  0.859
+rule                          hf_within_rec         0.348  0.485  0.451
+                              logreg_val            0.468  0.500  0.507
+                              rule_combined_prereg  0.326  0.480  0.433
+tx_full                       learned_head          0.468  0.497  0.489
+wrote /home/spath004/ecg_lock_results/nstdb

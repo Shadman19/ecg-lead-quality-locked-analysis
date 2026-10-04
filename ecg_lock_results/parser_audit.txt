@@ -1,0 +1,13 @@
+>> distinct strings 237 unrecognized 37 records with unrecognized string (all/test) 241 28
+>> unrecognized examples [['static_noise', "' , mittel,  '", 70, 5], ['static_noise', "' , leicht,  '", 42, 5], ['static_noise', "' , stark,  '", 25, 5], ['static_noise', "' , noisy recording,'", 21, 0], ['static_noise', "'leicht,  ,  '", 14, 3], ['static_noise', "' , noise,  '", 9, 0], ['static_noise', "' , mittel, noisy recording,'", 6, 2], ['burst_noise', "'v3-4'", 5, 1], ['burst_noise', "'v1-6'", 5, 1], ['burst_noise', "'v5-6'", 5, 1], ['burst_noise', "'alle'", 4, 0], ['static_noise', "' , stark, noisy recording,'", 4, 1]]
+>> {'definition': 'base (all annotations)', 'n_records': 2158, 'n_leads': 25896, 'n_pos': 2083, 'det_seedmean': 0.7507, 'det_scoreavg': 0.796, 'gbm': 0.8035, 'tsqi': 0.5768, 'ksqi': 0.5865}
+>> {'definition': 'static noise only (other annotated leads excluded)', 'n_records': 2156, 'n_leads': 25793, 'n_pos': 1980, 'det_seedmean': 0.7591, 'det_scoreavg': 0.8053, 'gbm': 0.8127, 'tsqi': 0.5746, 'ksqi': 0.5922}
+>> {'definition': 'burst noise only (other annotated leads excluded)', 'n_records': 2087, 'n_leads': 23951, 'n_pos': 138, 'det_seedmean': 0.6476, 'det_scoreavg': 0.6802, 'gbm': 0.6881, 'tsqi': 0.6106, 'ksqi': 0.5009}
+>> {'definition': "'alles' records removed", 'n_records': 2079, 'n_leads': 24948, 'n_pos': 1135, 'det_seedmean': 0.7308, 'det_scoreavg': 0.7837, 'gbm': 0.8276, 'tsqi': 0.6062, 'ksqi': 0.5728}
+>> {'definition': 'unparsed records removed', 'n_records': 2130, 'n_leads': 25560, 'n_pos': 2083, 'det_seedmean': 0.7561, 'det_scoreavg': 0.8022, 'gbm': 0.8083, 'tsqi': 0.5775, 'ksqi': 0.5883}
+>> {'definition': 'within annotated records', 'n_records': 310, 'n_leads': 3720, 'n_pos': 2083, 'det_seedmean': 0.6867, 'det_scoreavg': 0.7278, 'gbm': 0.785, 'tsqi': 0.6165, 'ksqi': 0.6293}
+>> {'definition': 'record level (max over leads)', 'n_records': 2158, 'n_leads': None, 'n_pos': 310, 'det_seedmean': 0.7717, 'det_scoreavg': 0.775, 'gbm': 0.7724, 'tsqi': 0.5564, 'ksqi': 0.5298}
+>> top-1 lead hit rate within annotated non-alles records det_scoreavg 0.6234 chance 0.4095 n 231
+>> top-1 lead hit rate within annotated non-alles records gbm 0.8312 chance 0.4095 n 231
+>> top-1 lead hit rate within annotated non-alles records tsqi 0.5801 chance 0.4095 n 231
+>> counts: alles records in test 79 unparsed records in test 28 annotated records 310 sens@90 det_scoreavg base 0.4321

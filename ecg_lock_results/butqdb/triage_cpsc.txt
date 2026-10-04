@@ -1,0 +1,12 @@
+>> U2 cpsc cnn_diagonly_aug detector_ens 0.05 nflag 27 flagged 0.0717 rest 0.0385 diff 0.0332[-0.0099,0.0844]
+>> U2 cpsc cnn_diagonly_aug detector_ens 0.1 nflag 54 flagged 0.0601 rest 0.0380 diff 0.0221[-0.0069,0.0583]
+/home/spath004/ecg_lock/triage_utility.py:100: RuntimeWarning: Mean of empty slice.
+  dfun = lambda ix: float(np.mean([b_[ix][fl[ix]].mean() - b_[ix][~fl[ix]].mean() for b_ in br]))
+/home/spath004/envs/default-pytorch-gpu-2.1.0/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+>> U2 cpsc cnn_diagonly_aug SQI_tsqi 0.05 nflag 2 flagged 0.0006 rest 0.0403 diff -0.0397[-0.0472,-0.0321]
+>> U2 cpsc cnn_diagonly_aug SQI_tsqi 0.1 nflag 54 flagged 0.0478 rest 0.0393 diff 0.0085[-0.0167,0.0392]
+>> U2 cpsc cnn_full_leadwise_cleanfrac20 detector_ens 0.05 nflag 27 flagged 0.1077 rest 0.0406 diff 0.0671[0.0095,0.1268]
+>> U2 cpsc cnn_full_leadwise_cleanfrac20 detector_ens 0.1 nflag 54 flagged 0.0751 rest 0.0405 diff 0.0346[-0.0014,0.0724]
+>> U2 cpsc cnn_full_leadwise_cleanfrac20 SQI_tsqi 0.05 nflag 2 flagged 0.0143 rest 0.0441 diff -0.0297[-0.0478,-0.0118]
+>> U2 cpsc cnn_full_leadwise_cleanfrac20 SQI_tsqi 0.1 nflag 54 flagged 0.0586 rest 0.0423 diff 0.0163[-0.0133,0.0516]

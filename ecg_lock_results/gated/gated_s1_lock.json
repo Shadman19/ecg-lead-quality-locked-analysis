@@ -1,0 +1,14 @@
+{
+  "file_sha256": "907a5c8c4185ee04db4919fcaf3073a68c62e6f703281cd9657f46e7b5a79f84",
+  "detector_ckpt": "b132bf2ca08f4400d08756eb70e0eaf3ddb42b83d8ea1b85f1f2802f7028dc35",
+  "classifier_ckpts": {
+    "cnn_diagonly_aug": "06155227f469385f83691b950221cc430e4234dfc947889127c5f862fa2b7f03",
+    "resnet_aug": "116993b11ca1a954c5b92a4036d9525f8f8588864119984e8a9f3f10b220222a",
+    "inception_aug": "b591d6d64b951b66b5f4c0c23c478deb67ab2b7be0be47be375f3df8bd69546f"
+  },
+  "taus": {
+    "tau": 0.49090200662612915,
+    "t05": 0.5
+  },
+  "status": "SECONDARY round 4, endpoints fixed before run"
+}

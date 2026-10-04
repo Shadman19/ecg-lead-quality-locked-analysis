@@ -1,0 +1,2 @@
+mkdir: cannot create directory ‘logs’: Permission denied
+/var/spool/slurmd/job6848748/slurm_script: line 48: python: command not found
