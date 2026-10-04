@@ -1,0 +1,19 @@
+>> scale_w4_diagonly_aug 0 params 14381829 best_ep 22 clean 0.9307 corr 0.9231
+>> scale_w4_proposed 0 params 17332914 best_ep 23 clean 0.9284 corr 0.9211
+>> scale_w4_diagonly_aug 1 params 14381829 best_ep 22 clean 0.9297 corr 0.9235
+>> scale_w4_proposed 1 params 17332914 best_ep 26 clean 0.9293 corr 0.9224
+>> scale_w4_diagonly_aug 2 params 14381829 best_ep 24 clean 0.9277 corr 0.9217
+>> scale_w4_proposed 2 params 17332914 best_ep 29 clean 0.9299 corr 0.9232
+## clean: proposed - aug delta -0.0001 [-0.0022, +0.0021] per-seed -0.0023 -0.0004 +0.0022
+## B1-scale: corrupted, proposed - aug delta -0.0005 [-0.0027, +0.0020] per-seed -0.0019 -0.0010 +0.0015
+## oracle repair, proposed: post - pre delta -0.0027 [-0.0048, -0.0008] per-seed -0.0025 -0.0028 -0.0027
+## dropped-only repair, proposed: post - pre delta +0.0017 [+0.0001, +0.0032] per-seed +0.0018 +0.0019 +0.0014
+## k=4: proposed - aug delta -0.0014 [-0.0034, +0.0007] per-seed -0.0033 -0.0012 +0.0002
+## k=4: repaired proposed - aug delta +0.0037 [+0.0015, +0.0059] per-seed +0.0020 +0.0042 +0.0049
+## k=8: proposed - aug delta -0.0054 [-0.0078, -0.0029] per-seed -0.0067 -0.0082 -0.0013
+## k=8: repaired proposed - aug delta +0.0096 [+0.0065, +0.0128] per-seed +0.0098 +0.0076 +0.0114
+## k=10: proposed - aug delta -0.0157 [-0.0191, -0.0120] per-seed -0.0065 -0.0392 -0.0013
+## k=10: repaired proposed - aug delta +0.0272 [+0.0236, +0.0316] per-seed +0.0378 +0.0125 +0.0313
+## means aug clean 0.9294 corr 0.9227 k4 0.9169 k8 0.8717 k10 0.7598
+## means prop clean 0.9292 corr 0.9222 k4 0.9155 k8 0.8663 k10 0.7441
+wrote /home/spath004/ecg_lock_results/scale/T_scale_check.csv
