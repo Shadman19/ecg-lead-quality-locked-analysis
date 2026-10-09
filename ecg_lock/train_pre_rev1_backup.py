@@ -44,7 +44,6 @@ def args_():
     p.add_argument("--w-rec", type=float, default=1.0)
     p.add_argument("--sigma-min", type=float, default=0.0)
     p.add_argument("--clean-frac", type=float, default=0.0)
-    p.add_argument("--min-one-masked", type=int, default=-1, help="-1 auto (on iff rec task), 0 off, 1 on")
     p.add_argument("--max-train", type=int, default=0, help="debug: subsample training set")
     p.add_argument("--device", default="cuda" if torch.cuda.is_available() else "cpu")
     return p.parse_args()
@@ -98,14 +97,14 @@ def main():
     Xn = (X - mu[None, :, None]) / (sd[None, :, None] + 1e-6)
     tr = idx["train"] if not a.max_train else idx["train"][: a.max_train]
     prof = CorruptionProfile(sigma_min=a.sigma_min, clean_frac=a.clean_frac,
-                             min_one_masked=(("rec" in tasks) if a.min_one_masked < 0 else bool(a.min_one_masked)))
+                             min_one_masked=("rec" in tasks))
 
     model = build(a.arch, tasks, a.lead_head).to(a.device)
     opt = torch.optim.AdamW(model.parameters(), lr=lr, weight_decay=a.wd)
     sched = torch.optim.lr_scheduler.CosineAnnealingLR(opt, T_max=a.epochs)
     rng = np.random.default_rng(10_000 + a.seed)
 
-    cfg = {**{k: (str(v) if isinstance(v, Path) else v) for k, v in vars(a).items() if not (k == "min_one_masked" and v < 0)}, "tasks": tasks, "lr": lr,
+    cfg = {**{k: (str(v) if isinstance(v, Path) else v) for k, v in vars(a).items()}, "tasks": tasks, "lr": lr,
            "corruption_profile": prof.as_dict(), "code_commit": git_commit(),
            "n_params": sum(p.numel() for p in model.parameters()),
            "checkpoint_rule": "max clean-validation macro AUROC; ties -> earliest epoch",

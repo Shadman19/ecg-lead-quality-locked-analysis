@@ -1,0 +1,14 @@
+endpoint,model,per_seed,delta,ci_lo,ci_hi,ci_level,pass,mean_intact_score,frac_clean_leads_flagged_at_tau_mask,decision
+A_perlead_noise_auroc_learned_minus_combined_rule,cnn_full_leadwise_cleanfrac20,"[0.3911640630196097, 0.3785389538957571, 0.3853738910093981, 0.3843157031076173, 0.4020112887826732]",0.38828077996301114,0.3799873807079961,0.39679442228759493,0.95,True,,,
+B1_corrupted_macro_auroc_proposed_minus_cnn_diagonly_aug_matched,cnn_full_leadwise_cleanfrac20,"[-0.0029784022070371563, -0.00014431306441053948, -0.0018038050047890497, 0.0012206975127042607, -0.0021695558950076688]",-0.0011750757317080308,-0.00399653048237862,0.0013999915224359896,0.975,False,,,
+B1_corrupted_macro_auroc_proposed_minus_cnn_diagonly_aug,cnn_full_leadwise_cleanfrac20,"[-0.004848732236748532, -0.0017856624668723953, -0.004327563330175921, -0.0023472138271872778, -0.0031644154484169462]",-0.0032947174618802146,-0.006026731009808571,-0.0006773573208990096,0.975,False,,,
+B2_predicted_mask_repair_macro_auroc_post_minus_pre,cnn_full_leadwise_cleanfrac20,"[-0.003547481735836633, -0.0016896025355466193, -0.002572326413223025, -0.002357941629728355, -0.0019297374419974256]",-0.0024194179512664117,-0.004741516363408787,-0.0002556698539594828,0.975,False,,,
+SANITY_clean_input_intact_score,cnn_full_leadwise_cleanfrac20_s0,,,,,,,0.9065508842468262,0.043674698795180725,
+SANITY_clean_input_intact_score,cnn_full_leadwise_cleanfrac20_s1,,,,,,,0.8834350109100342,0.046493666975594684,
+SANITY_clean_input_intact_score,cnn_full_leadwise_cleanfrac20_s2,,,,,,,0.8879007697105408,0.05425548347235094,
+SANITY_clean_input_intact_score,cnn_full_leadwise_cleanfrac20_s3,,,,,,,0.8738191723823547,0.05383070744516528,
+SANITY_clean_input_intact_score,cnn_full_leadwise_cleanfrac20_s4,,,,,,,0.9166610836982727,0.039697250540624035,
+SANITY_clean_input_intact_score,cnn_full_s0,,,,,,,0.5975125432014465,0.003629904232313871,
+SANITY_clean_input_intact_score,cnn_full_s1,,,,,,,0.5998598337173462,0.0033209762125424778,
+SANITY_clean_input_intact_score,cnn_full_s2,,,,,,,0.6470354199409485,0.0032823602100710537,
+DECISION,cnn_full_leadwise_cleanfrac20,,,,,,,,,RE-SCOPE
